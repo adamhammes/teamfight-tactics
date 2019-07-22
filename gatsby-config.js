@@ -6,6 +6,13 @@ module.exports = {
         path: "original_data/champion-list.json"
       }
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: 'items',
+        path: "original_data/items.json"
+      }
+    },
     "gatsby-transformer-json",
     {
       resolve: "gatsby-source-filesystem",

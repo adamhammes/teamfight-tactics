@@ -1,3 +1,4 @@
+import collections
 import json
 import re
 
@@ -17,7 +18,7 @@ def slugify(s):
     return s
 
 
-def main():
+def champions():
     with open('champions-backup.json') as f:
         raw_champions = json.load(f)
 
@@ -32,6 +33,20 @@ def main():
     with open('champion-list.json', 'w') as f:
         json.dump(champions_list, f, indent=4)
 
+
+def items():
+    with open('items-backup.json') as f:
+        raw_items = json.load(f, object_pairs_hook=collections.OrderedDict)
+
+    items = list(raw_items.values())
+
+    with open('items.json', 'w') as f:
+        json.dump(items, f, indent=4)
+
+
+def main():
+    champions()
+    items()
 
 if __name__ == "__main__":
     main()
