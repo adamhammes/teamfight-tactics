@@ -14,21 +14,126 @@
             }
         ],
         "kind": "basic",
-        "buildsInto": [
-            "infinityedge",
-            "hextechgunblade",
-            "swordofthedivine",
-            "spearofshojin",
-            "guardianangel",
-            "bloodthirster",
-            "zekesherald",
-            "youmuusghostblade"
-        ],
+        "buildsInto": {
+            "bfsword": {
+                "key": "infinityedge",
+                "name": "Infinity Edge",
+                "type": "Offensive",
+                "bonus": "Critical Strikes deal +100% damage.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "needlesslylargerod": {
+                "key": "hextechgunblade",
+                "name": "Hextech Gunblade",
+                "type": "Defensive",
+                "bonus": "Heal for 33% of all damage dealt.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "recurvebow": {
+                "key": "swordofthedivine",
+                "name": "Sword of the Divine",
+                "type": "Offensive",
+                "bonus": "Every 1s gain a 5% chance to gain 100% Critical Strike.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "tearofthegoddess": {
+                "key": "spearofshojin",
+                "name": "Spear of Shojin",
+                "type": "Utility",
+                "bonus": "After casting, gain 15% of max mana per attack.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "chainvest": {
+                "key": "guardianangel",
+                "name": "Guardian Angel",
+                "type": "Utility",
+                "bonus": "Revives champ with 1000 HP after 2 seconds.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "negatroncloak": {
+                "key": "bloodthirster",
+                "name": "Bloodthirster",
+                "type": "Defensive",
+                "bonus": "Attacks heal for 50% of damage.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "giantsbelt": {
+                "key": "zekesherald",
+                "name": "Zeke's Herald",
+                "type": "Utility",
+                "bonus": "On start of combat, allies 2 spaces to the left and right gain +15% Attack Speed.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "spatula": {
+                "key": "youmuusghostblade",
+                "name": "Youmuu's Ghostblade",
+                "type": "Utility",
+                "bonus": "Wearer is also an Assassin.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
+        },
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsFrom": []
     },
     {
         "key": "needlesslylargerod",
@@ -45,21 +150,126 @@
             }
         ],
         "kind": "basic",
-        "buildsInto": [
-            "hextechgunblade",
-            "rabadonsdeathcap",
-            "guinsoosrageblade",
-            "ludensecho",
-            "locketoftheironsolari",
-            "ionicspark",
-            "morellonomicon",
-            "yuumi"
-        ],
+        "buildsInto": {
+            "bfsword": {
+                "key": "hextechgunblade",
+                "name": "Hextech Gunblade",
+                "type": "Defensive",
+                "bonus": "Heal for 33% of all damage dealt.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "needlesslylargerod": {
+                "key": "rabadonsdeathcap",
+                "name": "Rabadon's Deathcap",
+                "type": "Offensive",
+                "bonus": "Wearer's Ability Damage increased by 50%.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "recurvebow": {
+                "key": "guinsoosrageblade",
+                "name": "Guinsoo's Rageblade",
+                "type": "Offensive",
+                "bonus": "Attacks give 4% Attack Speed. Stacks infinitely.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "tearofthegoddess": {
+                "key": "ludensecho",
+                "name": "Luden's Echo",
+                "type": "Offensive",
+                "bonus": "Deal 200 splash damage on ability hit.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "chainvest": {
+                "key": "locketoftheironsolari",
+                "name": "Locket of the Iron Solari",
+                "type": "Defensive",
+                "bonus": "On start of combat, allies 2 spaces to the left and right gain <strong style='color: white;'>200 shield.</span>",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "negatroncloak": {
+                "key": "ionicspark",
+                "name": "Ionic Spark",
+                "type": "Utility",
+                "bonus": "Whenever an enemy casts a spell they take 200 true damage.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "giantsbelt": {
+                "key": "morellonomicon",
+                "name": "Morellonomicon",
+                "type": "Offensive",
+                "bonus": "Spells burn for 15% of max HP over 5s and disable healing.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "spatula": {
+                "key": "yuumi",
+                "name": "Yuumi",
+                "type": "Utility",
+                "bonus": "Wearer is also a Sorcerer.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
+        },
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsFrom": []
     },
     {
         "key": "recurvebow",
@@ -76,21 +286,126 @@
             }
         ],
         "kind": "basic",
-        "buildsInto": [
-            "swordofthedivine",
-            "guinsoosrageblade",
-            "rapidfirecannon",
-            "statikkshiv",
-            "phantomdancer",
-            "cursedblade",
-            "titanichydra",
-            "bladeoftheruinedking"
-        ],
+        "buildsInto": {
+            "bfsword": {
+                "key": "swordofthedivine",
+                "name": "Sword of the Divine",
+                "type": "Offensive",
+                "bonus": "Every 1s gain a 5% chance to gain 100% Critical Strike.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "needlesslylargerod": {
+                "key": "guinsoosrageblade",
+                "name": "Guinsoo's Rageblade",
+                "type": "Offensive",
+                "bonus": "Attacks give 4% Attack Speed. Stacks infinitely.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "recurvebow": {
+                "key": "rapidfirecannon",
+                "name": "Rapid Firecannon",
+                "type": "Offensive",
+                "bonus": "Attacks cannot be dodged. Attack Range is doubled.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "tearofthegoddess": {
+                "key": "statikkshiv",
+                "name": "Statikk Shiv",
+                "type": "Offensive",
+                "bonus": "Every 3rd attack deals 100 splash magical damage to 3 enemies.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "chainvest": {
+                "key": "phantomdancer",
+                "name": "Phantom Dancer",
+                "type": "Defensive",
+                "bonus": "Wearer dodges all Critical Strikes.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "negatroncloak": {
+                "key": "cursedblade",
+                "name": "Cursed Blade",
+                "type": "Utility",
+                "bonus": "Attacks have a low chance to Shrink (-1 enemy star, down to level 0).",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "giantsbelt": {
+                "key": "titanichydra",
+                "name": "Titanic Hydra",
+                "type": "Offensive",
+                "bonus": "Attacks deal 10% of the wearer's max HP as splash.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "spatula": {
+                "key": "bladeoftheruinedking",
+                "name": "Blade of the Ruined King",
+                "type": "Offensive",
+                "bonus": "Wearer is also a Blademaster.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
+        },
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsFrom": []
     },
     {
         "key": "tearofthegoddess",
@@ -107,21 +422,126 @@
             }
         ],
         "kind": "basic",
-        "buildsInto": [
-            "spearofshojin",
-            "ludensecho",
-            "statikkshiv",
-            "seraphsembrace",
-            "frozenheart",
-            "hush",
-            "redemption",
-            "darkin"
-        ],
+        "buildsInto": {
+            "bfsword": {
+                "key": "spearofshojin",
+                "name": "Spear of Shojin",
+                "type": "Utility",
+                "bonus": "After casting, gain 15% of max mana per attack.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "needlesslylargerod": {
+                "key": "ludensecho",
+                "name": "Luden's Echo",
+                "type": "Offensive",
+                "bonus": "Deal 200 splash damage on ability hit.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "recurvebow": {
+                "key": "statikkshiv",
+                "name": "Statikk Shiv",
+                "type": "Offensive",
+                "bonus": "Every 3rd attack deals 100 splash magical damage to 3 enemies.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "tearofthegoddess": {
+                "key": "seraphsembrace",
+                "name": "Seraph's Embrace",
+                "type": "Utility",
+                "bonus": "Regain 20 mana each time a spell is cast",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "chainvest": {
+                "key": "frozenheart",
+                "name": "Frozen Heart",
+                "type": "Defensive",
+                "bonus": "Adjacent enemies lose 25% Attack Speed.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "negatroncloak": {
+                "key": "hush",
+                "name": "Hush",
+                "type": "Utility",
+                "bonus": "Attacks have a high chance to Silence.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "giantsbelt": {
+                "key": "redemption",
+                "name": "Redemption",
+                "type": "Utility",
+                "bonus": "At 25% health heal all nearby allies for 1000 HP.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "spatula": {
+                "key": "darkin",
+                "name": "Darkin",
+                "type": "Utility",
+                "bonus": "Wearer is also a Demon.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
+        },
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsFrom": []
     },
     {
         "key": "chainvest",
@@ -138,21 +558,126 @@
             }
         ],
         "kind": "basic",
-        "buildsInto": [
-            "guardianangel",
-            "locketoftheironsolari",
-            "phantomdancer",
-            "frozenheart",
-            "thornmail",
-            "swordbreaker",
-            "redbuff",
-            "knightsvow"
-        ],
+        "buildsInto": {
+            "bfsword": {
+                "key": "guardianangel",
+                "name": "Guardian Angel",
+                "type": "Utility",
+                "bonus": "Revives champ with 1000 HP after 2 seconds.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "needlesslylargerod": {
+                "key": "locketoftheironsolari",
+                "name": "Locket of the Iron Solari",
+                "type": "Defensive",
+                "bonus": "On start of combat, allies 2 spaces to the left and right gain <strong style='color: white;'>200 shield.</span>",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "recurvebow": {
+                "key": "phantomdancer",
+                "name": "Phantom Dancer",
+                "type": "Defensive",
+                "bonus": "Wearer dodges all Critical Strikes.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "tearofthegoddess": {
+                "key": "frozenheart",
+                "name": "Frozen Heart",
+                "type": "Defensive",
+                "bonus": "Adjacent enemies lose 25% Attack Speed.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "chainvest": {
+                "key": "thornmail",
+                "name": "Thornmail",
+                "type": "Defensive",
+                "bonus": "Reflect 100% of of physical damage mitigated as True Damage.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "negatroncloak": {
+                "key": "swordbreaker",
+                "name": "Sword Breaker",
+                "type": "Utility",
+                "bonus": "Attacks have a chance to disarm.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "giantsbelt": {
+                "key": "redbuff",
+                "name": "Red Buff",
+                "type": "Offensive",
+                "bonus": "Attacks burn for 13% of max HP over 5s and disable healing.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "spatula": {
+                "key": "knightsvow",
+                "name": "Knights Vow",
+                "type": "Utility",
+                "bonus": "Wearer is also a Knight.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
+        },
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsFrom": []
     },
     {
         "key": "negatroncloak",
@@ -169,21 +694,126 @@
             }
         ],
         "kind": "basic",
-        "buildsInto": [
-            "bloodthirster",
-            "ionicspark",
-            "cursedblade",
-            "hush",
-            "swordbreaker",
-            "dragonsclaw",
-            "zephyr",
-            "runaanshurricane"
-        ],
+        "buildsInto": {
+            "bfsword": {
+                "key": "bloodthirster",
+                "name": "Bloodthirster",
+                "type": "Defensive",
+                "bonus": "Attacks heal for 50% of damage.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "needlesslylargerod": {
+                "key": "ionicspark",
+                "name": "Ionic Spark",
+                "type": "Utility",
+                "bonus": "Whenever an enemy casts a spell they take 200 true damage.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "recurvebow": {
+                "key": "cursedblade",
+                "name": "Cursed Blade",
+                "type": "Utility",
+                "bonus": "Attacks have a low chance to Shrink (-1 enemy star, down to level 0).",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "tearofthegoddess": {
+                "key": "hush",
+                "name": "Hush",
+                "type": "Utility",
+                "bonus": "Attacks have a high chance to Silence.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "chainvest": {
+                "key": "swordbreaker",
+                "name": "Sword Breaker",
+                "type": "Utility",
+                "bonus": "Attacks have a chance to disarm.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "negatroncloak": {
+                "key": "dragonsclaw",
+                "name": "Dragon's Claw",
+                "type": "Defensive",
+                "bonus": "83% resistance to magic damage.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "giantsbelt": {
+                "key": "zephyr",
+                "name": "Zephyr",
+                "type": "Utility",
+                "bonus": "On start of combat banish an enemy.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "spatula": {
+                "key": "runaanshurricane",
+                "name": "Runaan's Hurricane",
+                "type": "Offensive",
+                "bonus": "Attacks hit 1 additional enemy. This extra hit does 25% damage and applies on-hit effects.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
+        },
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsFrom": []
     },
     {
         "key": "giantsbelt",
@@ -200,21 +830,126 @@
             }
         ],
         "kind": "basic",
-        "buildsInto": [
-            "zekesherald",
-            "morellonomicon",
-            "titanichydra",
-            "redemption",
-            "redbuff",
-            "zephyr",
-            "warmogsarmor",
-            "frozenmallet"
-        ],
+        "buildsInto": {
+            "bfsword": {
+                "key": "zekesherald",
+                "name": "Zeke's Herald",
+                "type": "Utility",
+                "bonus": "On start of combat, allies 2 spaces to the left and right gain +15% Attack Speed.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "needlesslylargerod": {
+                "key": "morellonomicon",
+                "name": "Morellonomicon",
+                "type": "Offensive",
+                "bonus": "Spells burn for 15% of max HP over 5s and disable healing.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "recurvebow": {
+                "key": "titanichydra",
+                "name": "Titanic Hydra",
+                "type": "Offensive",
+                "bonus": "Attacks deal 10% of the wearer's max HP as splash.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "tearofthegoddess": {
+                "key": "redemption",
+                "name": "Redemption",
+                "type": "Utility",
+                "bonus": "At 25% health heal all nearby allies for 1000 HP.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "chainvest": {
+                "key": "redbuff",
+                "name": "Red Buff",
+                "type": "Offensive",
+                "bonus": "Attacks burn for 13% of max HP over 5s and disable healing.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "negatroncloak": {
+                "key": "zephyr",
+                "name": "Zephyr",
+                "type": "Utility",
+                "bonus": "On start of combat banish an enemy.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "giantsbelt": {
+                "key": "warmogsarmor",
+                "name": "Warmog's Armor",
+                "type": "Defensive",
+                "bonus": "Regenerate 6% max <strong style='color: #20995D;'>Health</strong> per second.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "spatula": {
+                "key": "frozenmallet",
+                "name": "Frozen Mallet",
+                "type": "Utility",
+                "bonus": "Wearer is also a Glacial.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
+        },
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsFrom": []
     },
     {
         "key": "spatula",
@@ -231,21 +966,126 @@
             }
         ],
         "kind": "basic",
-        "buildsInto": [
-            "youmuusghostblade",
-            "yuumi",
-            "bladeoftheruinedking",
-            "darkin",
-            "knightsvow",
-            "runaanshurricane",
-            "frozenmallet",
-            "forceofnature"
-        ],
+        "buildsInto": {
+            "bfsword": {
+                "key": "youmuusghostblade",
+                "name": "Youmuu's Ghostblade",
+                "type": "Utility",
+                "bonus": "Wearer is also an Assassin.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "needlesslylargerod": {
+                "key": "yuumi",
+                "name": "Yuumi",
+                "type": "Utility",
+                "bonus": "Wearer is also a Sorcerer.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "recurvebow": {
+                "key": "bladeoftheruinedking",
+                "name": "Blade of the Ruined King",
+                "type": "Offensive",
+                "bonus": "Wearer is also a Blademaster.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "tearofthegoddess": {
+                "key": "darkin",
+                "name": "Darkin",
+                "type": "Utility",
+                "bonus": "Wearer is also a Demon.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "chainvest": {
+                "key": "knightsvow",
+                "name": "Knights Vow",
+                "type": "Utility",
+                "bonus": "Wearer is also a Knight.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "negatroncloak": {
+                "key": "runaanshurricane",
+                "name": "Runaan's Hurricane",
+                "type": "Offensive",
+                "bonus": "Attacks hit 1 additional enemy. This extra hit does 25% damage and applies on-hit effects.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "giantsbelt": {
+                "key": "frozenmallet",
+                "name": "Frozen Mallet",
+                "type": "Utility",
+                "bonus": "Wearer is also a Glacial.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            "spatula": {
+                "key": "forceofnature",
+                "name": "Force of Nature",
+                "type": "Utility",
+                "bonus": "Gain + team size.",
+                "tier": 1,
+                "depth": 2,
+                "kind": "advanced",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
+        },
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsFrom": []
     },
     {
         "key": "forceofnature",
@@ -255,15 +1095,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "spatula",
-            "spatula"
+            {
+                "key": "spatula",
+                "name": "Spatula",
+                "type": "Utility",
+                "bonus": "It must do something...",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": null,
+                        "title": "It must do something...",
+                        "amount": null
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "spatula",
+                "name": "Spatula",
+                "type": "Utility",
+                "bonus": "It must do something...",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": null,
+                        "title": "It must do something...",
+                        "amount": null
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "bladeoftheruinedking",
@@ -273,15 +1154,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "spatula",
-            "recurvebow"
+            {
+                "key": "spatula",
+                "name": "Spatula",
+                "type": "Utility",
+                "bonus": "It must do something...",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": null,
+                        "title": "It must do something...",
+                        "amount": null
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "recurvebow",
+                "name": "Recurve Bow",
+                "type": "Offensive",
+                "bonus": "+20% Attack Speed",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackSpeed",
+                        "title": "Attack Speed",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "bloodthirster",
@@ -291,15 +1213,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "bfsword",
-            "negatroncloak"
+            {
+                "key": "bfsword",
+                "name": "B.F. Sword",
+                "type": "Offensive",
+                "bonus": "+20 Attack Damage.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackDamage",
+                        "title": "Attack Damage",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "negatroncloak",
+                "name": "Negatron Cloak",
+                "type": "Defensive",
+                "bonus": "+20 Magic Resist.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "magicResist",
+                        "title": "Magic Resist",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "cursedblade",
@@ -309,15 +1272,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "negatroncloak",
-            "recurvebow"
+            {
+                "key": "negatroncloak",
+                "name": "Negatron Cloak",
+                "type": "Defensive",
+                "bonus": "+20 Magic Resist.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "magicResist",
+                        "title": "Magic Resist",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "recurvebow",
+                "name": "Recurve Bow",
+                "type": "Offensive",
+                "bonus": "+20% Attack Speed",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackSpeed",
+                        "title": "Attack Speed",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "darkin",
@@ -327,15 +1331,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "spatula",
-            "tearofthegoddess"
+            {
+                "key": "spatula",
+                "name": "Spatula",
+                "type": "Utility",
+                "bonus": "It must do something...",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": null,
+                        "title": "It must do something...",
+                        "amount": null
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "tearofthegoddess",
+                "name": "Tear of the Goddess",
+                "type": "Utility",
+                "bonus": "+20 Starting Mana.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "mana",
+                        "title": "Starting Mana",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "dragonsclaw",
@@ -345,15 +1390,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "negatroncloak",
-            "negatroncloak"
+            {
+                "key": "negatroncloak",
+                "name": "Negatron Cloak",
+                "type": "Defensive",
+                "bonus": "+20 Magic Resist.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "magicResist",
+                        "title": "Magic Resist",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "negatroncloak",
+                "name": "Negatron Cloak",
+                "type": "Defensive",
+                "bonus": "+20 Magic Resist.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "magicResist",
+                        "title": "Magic Resist",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "frozenheart",
@@ -363,15 +1449,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "tearofthegoddess",
-            "chainvest"
+            {
+                "key": "tearofthegoddess",
+                "name": "Tear of the Goddess",
+                "type": "Utility",
+                "bonus": "+20 Starting Mana.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "mana",
+                        "title": "Starting Mana",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "chainvest",
+                "name": "Chain Vest",
+                "type": "Defensive",
+                "bonus": "+20 Armor.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "armor",
+                        "title": "Armor",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "frozenmallet",
@@ -381,15 +1508,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "giantsbelt",
-            "spatula"
+            {
+                "key": "giantsbelt",
+                "name": "Giant's Belt",
+                "type": "Defensive",
+                "bonus": "+200 Health.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "health",
+                        "title": "Health",
+                        "amount": "+200"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "spatula",
+                "name": "Spatula",
+                "type": "Utility",
+                "bonus": "It must do something...",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": null,
+                        "title": "It must do something...",
+                        "amount": null
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "guardianangel",
@@ -399,15 +1567,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "bfsword",
-            "chainvest"
+            {
+                "key": "bfsword",
+                "name": "B.F. Sword",
+                "type": "Offensive",
+                "bonus": "+20 Attack Damage.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackDamage",
+                        "title": "Attack Damage",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "chainvest",
+                "name": "Chain Vest",
+                "type": "Defensive",
+                "bonus": "+20 Armor.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "armor",
+                        "title": "Armor",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "guinsoosrageblade",
@@ -417,15 +1626,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "needlesslylargerod",
-            "recurvebow"
+            {
+                "key": "needlesslylargerod",
+                "name": "Needlessly Large Rod",
+                "type": "Offensive",
+                "bonus": "+20% Spell Damage",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "abilityPower",
+                        "title": "Spell Damage",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "recurvebow",
+                "name": "Recurve Bow",
+                "type": "Offensive",
+                "bonus": "+20% Attack Speed",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackSpeed",
+                        "title": "Attack Speed",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "hextechgunblade",
@@ -435,15 +1685,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "bfsword",
-            "needlesslylargerod"
+            {
+                "key": "bfsword",
+                "name": "B.F. Sword",
+                "type": "Offensive",
+                "bonus": "+20 Attack Damage.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackDamage",
+                        "title": "Attack Damage",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "needlesslylargerod",
+                "name": "Needlessly Large Rod",
+                "type": "Offensive",
+                "bonus": "+20% Spell Damage",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "abilityPower",
+                        "title": "Spell Damage",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "hush",
@@ -453,15 +1744,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "tearofthegoddess",
-            "negatroncloak"
+            {
+                "key": "tearofthegoddess",
+                "name": "Tear of the Goddess",
+                "type": "Utility",
+                "bonus": "+20 Starting Mana.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "mana",
+                        "title": "Starting Mana",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "negatroncloak",
+                "name": "Negatron Cloak",
+                "type": "Defensive",
+                "bonus": "+20 Magic Resist.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "magicResist",
+                        "title": "Magic Resist",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "infinityedge",
@@ -471,15 +1803,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "bfsword",
-            "bfsword"
+            {
+                "key": "bfsword",
+                "name": "B.F. Sword",
+                "type": "Offensive",
+                "bonus": "+20 Attack Damage.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackDamage",
+                        "title": "Attack Damage",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "bfsword",
+                "name": "B.F. Sword",
+                "type": "Offensive",
+                "bonus": "+20 Attack Damage.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackDamage",
+                        "title": "Attack Damage",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "ionicspark",
@@ -489,15 +1862,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "negatroncloak",
-            "needlesslylargerod"
+            {
+                "key": "negatroncloak",
+                "name": "Negatron Cloak",
+                "type": "Defensive",
+                "bonus": "+20 Magic Resist.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "magicResist",
+                        "title": "Magic Resist",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "needlesslylargerod",
+                "name": "Needlessly Large Rod",
+                "type": "Offensive",
+                "bonus": "+20% Spell Damage",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "abilityPower",
+                        "title": "Spell Damage",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "knightsvow",
@@ -507,15 +1921,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "chainvest",
-            "spatula"
+            {
+                "key": "chainvest",
+                "name": "Chain Vest",
+                "type": "Defensive",
+                "bonus": "+20 Armor.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "armor",
+                        "title": "Armor",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "spatula",
+                "name": "Spatula",
+                "type": "Utility",
+                "bonus": "It must do something...",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": null,
+                        "title": "It must do something...",
+                        "amount": null
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "locketoftheironsolari",
@@ -525,15 +1980,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "needlesslylargerod",
-            "chainvest"
+            {
+                "key": "needlesslylargerod",
+                "name": "Needlessly Large Rod",
+                "type": "Offensive",
+                "bonus": "+20% Spell Damage",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "abilityPower",
+                        "title": "Spell Damage",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "chainvest",
+                "name": "Chain Vest",
+                "type": "Defensive",
+                "bonus": "+20 Armor.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "armor",
+                        "title": "Armor",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "ludensecho",
@@ -543,15 +2039,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "needlesslylargerod",
-            "tearofthegoddess"
+            {
+                "key": "needlesslylargerod",
+                "name": "Needlessly Large Rod",
+                "type": "Offensive",
+                "bonus": "+20% Spell Damage",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "abilityPower",
+                        "title": "Spell Damage",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "tearofthegoddess",
+                "name": "Tear of the Goddess",
+                "type": "Utility",
+                "bonus": "+20 Starting Mana.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "mana",
+                        "title": "Starting Mana",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "morellonomicon",
@@ -561,15 +2098,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "needlesslylargerod",
-            "giantsbelt"
+            {
+                "key": "needlesslylargerod",
+                "name": "Needlessly Large Rod",
+                "type": "Offensive",
+                "bonus": "+20% Spell Damage",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "abilityPower",
+                        "title": "Spell Damage",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "giantsbelt",
+                "name": "Giant's Belt",
+                "type": "Defensive",
+                "bonus": "+200 Health.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "health",
+                        "title": "Health",
+                        "amount": "+200"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "phantomdancer",
@@ -579,15 +2157,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "chainvest",
-            "recurvebow"
+            {
+                "key": "chainvest",
+                "name": "Chain Vest",
+                "type": "Defensive",
+                "bonus": "+20 Armor.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "armor",
+                        "title": "Armor",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "recurvebow",
+                "name": "Recurve Bow",
+                "type": "Offensive",
+                "bonus": "+20% Attack Speed",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackSpeed",
+                        "title": "Attack Speed",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "rabadonsdeathcap",
@@ -597,15 +2216,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "needlesslylargerod",
-            "needlesslylargerod"
+            {
+                "key": "needlesslylargerod",
+                "name": "Needlessly Large Rod",
+                "type": "Offensive",
+                "bonus": "+20% Spell Damage",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "abilityPower",
+                        "title": "Spell Damage",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "needlesslylargerod",
+                "name": "Needlessly Large Rod",
+                "type": "Offensive",
+                "bonus": "+20% Spell Damage",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "abilityPower",
+                        "title": "Spell Damage",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "rapidfirecannon",
@@ -615,15 +2275,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "recurvebow",
-            "recurvebow"
+            {
+                "key": "recurvebow",
+                "name": "Recurve Bow",
+                "type": "Offensive",
+                "bonus": "+20% Attack Speed",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackSpeed",
+                        "title": "Attack Speed",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "recurvebow",
+                "name": "Recurve Bow",
+                "type": "Offensive",
+                "bonus": "+20% Attack Speed",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackSpeed",
+                        "title": "Attack Speed",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "redbuff",
@@ -633,15 +2334,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "chainvest",
-            "giantsbelt"
+            {
+                "key": "chainvest",
+                "name": "Chain Vest",
+                "type": "Defensive",
+                "bonus": "+20 Armor.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "armor",
+                        "title": "Armor",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "giantsbelt",
+                "name": "Giant's Belt",
+                "type": "Defensive",
+                "bonus": "+200 Health.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "health",
+                        "title": "Health",
+                        "amount": "+200"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "redemption",
@@ -651,15 +2393,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "tearofthegoddess",
-            "giantsbelt"
+            {
+                "key": "tearofthegoddess",
+                "name": "Tear of the Goddess",
+                "type": "Utility",
+                "bonus": "+20 Starting Mana.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "mana",
+                        "title": "Starting Mana",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "giantsbelt",
+                "name": "Giant's Belt",
+                "type": "Defensive",
+                "bonus": "+200 Health.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "health",
+                        "title": "Health",
+                        "amount": "+200"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "runaanshurricane",
@@ -669,15 +2452,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "spatula",
-            "negatroncloak"
+            {
+                "key": "spatula",
+                "name": "Spatula",
+                "type": "Utility",
+                "bonus": "It must do something...",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": null,
+                        "title": "It must do something...",
+                        "amount": null
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "negatroncloak",
+                "name": "Negatron Cloak",
+                "type": "Defensive",
+                "bonus": "+20 Magic Resist.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "magicResist",
+                        "title": "Magic Resist",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "seraphsembrace",
@@ -687,15 +2511,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "tearofthegoddess",
-            "tearofthegoddess"
+            {
+                "key": "tearofthegoddess",
+                "name": "Tear of the Goddess",
+                "type": "Utility",
+                "bonus": "+20 Starting Mana.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "mana",
+                        "title": "Starting Mana",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "tearofthegoddess",
+                "name": "Tear of the Goddess",
+                "type": "Utility",
+                "bonus": "+20 Starting Mana.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "mana",
+                        "title": "Starting Mana",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "spearofshojin",
@@ -705,15 +2570,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "bfsword",
-            "tearofthegoddess"
+            {
+                "key": "bfsword",
+                "name": "B.F. Sword",
+                "type": "Offensive",
+                "bonus": "+20 Attack Damage.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackDamage",
+                        "title": "Attack Damage",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "tearofthegoddess",
+                "name": "Tear of the Goddess",
+                "type": "Utility",
+                "bonus": "+20 Starting Mana.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "mana",
+                        "title": "Starting Mana",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "statikkshiv",
@@ -723,15 +2629,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "recurvebow",
-            "tearofthegoddess"
+            {
+                "key": "recurvebow",
+                "name": "Recurve Bow",
+                "type": "Offensive",
+                "bonus": "+20% Attack Speed",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackSpeed",
+                        "title": "Attack Speed",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "tearofthegoddess",
+                "name": "Tear of the Goddess",
+                "type": "Utility",
+                "bonus": "+20 Starting Mana.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "mana",
+                        "title": "Starting Mana",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "swordbreaker",
@@ -741,15 +2688,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "chainvest",
-            "negatroncloak"
+            {
+                "key": "chainvest",
+                "name": "Chain Vest",
+                "type": "Defensive",
+                "bonus": "+20 Armor.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "armor",
+                        "title": "Armor",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "negatroncloak",
+                "name": "Negatron Cloak",
+                "type": "Defensive",
+                "bonus": "+20 Magic Resist.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "magicResist",
+                        "title": "Magic Resist",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "swordofthedivine",
@@ -759,15 +2747,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "recurvebow",
-            "bfsword"
+            {
+                "key": "recurvebow",
+                "name": "Recurve Bow",
+                "type": "Offensive",
+                "bonus": "+20% Attack Speed",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackSpeed",
+                        "title": "Attack Speed",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "bfsword",
+                "name": "B.F. Sword",
+                "type": "Offensive",
+                "bonus": "+20 Attack Damage.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackDamage",
+                        "title": "Attack Damage",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "thornmail",
@@ -777,15 +2806,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "chainvest",
-            "chainvest"
+            {
+                "key": "chainvest",
+                "name": "Chain Vest",
+                "type": "Defensive",
+                "bonus": "+20 Armor.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "armor",
+                        "title": "Armor",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "chainvest",
+                "name": "Chain Vest",
+                "type": "Defensive",
+                "bonus": "+20 Armor.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "armor",
+                        "title": "Armor",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "titanichydra",
@@ -795,15 +2865,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "giantsbelt",
-            "recurvebow"
+            {
+                "key": "giantsbelt",
+                "name": "Giant's Belt",
+                "type": "Defensive",
+                "bonus": "+200 Health.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "health",
+                        "title": "Health",
+                        "amount": "+200"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "recurvebow",
+                "name": "Recurve Bow",
+                "type": "Offensive",
+                "bonus": "+20% Attack Speed",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackSpeed",
+                        "title": "Attack Speed",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "warmogsarmor",
@@ -813,15 +2924,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "giantsbelt",
-            "giantsbelt"
+            {
+                "key": "giantsbelt",
+                "name": "Giant's Belt",
+                "type": "Defensive",
+                "bonus": "+200 Health.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "health",
+                        "title": "Health",
+                        "amount": "+200"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "giantsbelt",
+                "name": "Giant's Belt",
+                "type": "Defensive",
+                "bonus": "+200 Health.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "health",
+                        "title": "Health",
+                        "amount": "+200"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "youmuusghostblade",
@@ -831,15 +2983,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "spatula",
-            "bfsword"
+            {
+                "key": "spatula",
+                "name": "Spatula",
+                "type": "Utility",
+                "bonus": "It must do something...",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": null,
+                        "title": "It must do something...",
+                        "amount": null
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "bfsword",
+                "name": "B.F. Sword",
+                "type": "Offensive",
+                "bonus": "+20 Attack Damage.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackDamage",
+                        "title": "Attack Damage",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "yuumi",
@@ -849,15 +3042,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "spatula",
-            "needlesslylargerod"
+            {
+                "key": "spatula",
+                "name": "Spatula",
+                "type": "Utility",
+                "bonus": "It must do something...",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": null,
+                        "title": "It must do something...",
+                        "amount": null
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "needlesslylargerod",
+                "name": "Needlessly Large Rod",
+                "type": "Offensive",
+                "bonus": "+20% Spell Damage",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "abilityPower",
+                        "title": "Spell Damage",
+                        "amount": "+20%"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "zekesherald",
@@ -867,15 +3101,56 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "bfsword",
-            "giantsbelt"
+            {
+                "key": "bfsword",
+                "name": "B.F. Sword",
+                "type": "Offensive",
+                "bonus": "+20 Attack Damage.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "attackDamage",
+                        "title": "Attack Damage",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "giantsbelt",
+                "name": "Giant's Belt",
+                "type": "Defensive",
+                "bonus": "+200 Health.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "health",
+                        "title": "Health",
+                        "amount": "+200"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     },
     {
         "key": "zephyr",
@@ -885,14 +3160,55 @@
         "tier": 1,
         "depth": 2,
         "buildsFrom": [
-            "negatroncloak",
-            "giantsbelt"
+            {
+                "key": "negatroncloak",
+                "name": "Negatron Cloak",
+                "type": "Defensive",
+                "bonus": "+20 Magic Resist.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "magicResist",
+                        "title": "Magic Resist",
+                        "amount": "+20"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            },
+            {
+                "key": "giantsbelt",
+                "name": "Giant's Belt",
+                "type": "Defensive",
+                "bonus": "+200 Health.",
+                "tier": 1,
+                "depth": 1,
+                "stats": [
+                    {
+                        "name": "health",
+                        "title": "Health",
+                        "amount": "+200"
+                    }
+                ],
+                "kind": "basic",
+                "champs": [
+                    "Ashe",
+                    "Yasuo",
+                    "Zed"
+                ]
+            }
         ],
         "kind": "advanced",
         "champs": [
             "Ashe",
             "Yasuo",
             "Zed"
-        ]
+        ],
+        "buildsInto": {}
     }
 ]

@@ -32,6 +32,52 @@ const championDetails = `
             name
             title
           }
+          buildsFrom {
+            key
+            name
+          }
+          buildsInto {
+            bfsword {
+              key
+              name
+              bonus
+            }
+            chainvest {
+              bonus
+              key
+              name
+            }
+            giantsbelt {
+              bonus
+              key
+              name
+            }
+            needlesslylargerod {
+              bonus
+              key
+              name
+            }
+            negatroncloak {
+              bonus
+              key
+              name
+            }
+            recurvebow {
+              bonus
+              key
+              name
+            }
+            spatula {
+              bonus
+              key
+              name
+            }
+            tearofthegoddess {
+              bonus
+              key
+              name
+            }
+          }
         }
       }
     }

@@ -1,4 +1,5 @@
 import collections
+import copy
 import json
 import re
 
@@ -40,6 +41,36 @@ def items():
 
     items = list(raw_items.values())
 
+    basic_items = collections.OrderedDict()
+    advanced_items = collections.OrderedDict()
+    for item in items:
+        # copy and delete circular references
+        copied_item = copy.deepcopy(item)
+        copied_item.pop('buildsInto', None)
+        copied_item.pop('buildsFrom', None)
+
+        if copied_item['kind'] == 'basic':
+            basic_items[copied_item['key']] = copied_item
+        else:
+            advanced_items[copied_item['key']] = copied_item
+
+    basic_items_keys = basic_items.keys()
+
+    for item in items:
+        new_builds_into = {}
+        new_builds_from = []
+        if item['kind'] == 'basic':
+            builds_into = item['buildsInto']
+            for basic_key, advanced_key in zip(basic_items_keys, builds_into):
+                new_builds_into[basic_key] = advanced_items[advanced_key]
+
+        else:
+            new_builds_from = [basic_items[item_key] for item_key in item['buildsFrom']]
+
+        item['buildsInto'] = new_builds_into
+        item['buildsFrom'] = new_builds_from
+
+
     with open('items.json', 'w') as f:
         json.dump(items, f, indent=4)
 
@@ -47,6 +78,7 @@ def items():
 def main():
     champions()
     items()
+
 
 if __name__ == "__main__":
     main()
