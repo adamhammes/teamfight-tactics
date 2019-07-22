@@ -2,8 +2,19 @@ import json
 import re
 
 
-def slugify(string):
-    return re.sub(r'\W+', '-', string).strip('-')
+def slugify(s):
+    s = s.lower()
+    for c in [' ', '-', '.', '/']:
+        s = s.replace(c, '_')
+
+    s = re.sub('\W', '', s)
+
+    s = s.replace('_', ' ')
+    s = re.sub('\s+', ' ', s)
+    s = s.strip()
+    s = s.replace(' ', '-')
+
+    return s
 
 
 def main():
@@ -13,8 +24,7 @@ def main():
     champions_list = list(raw_champions.values())
 
     for champion in champions_list:
-        slug = slugify(champion['name']).replace('-', '')
-        champion['slug'] = slug
+        champion['slug'] = slugify(champion['name'])
 
         ability = champion['ability']
         del ability['stats']

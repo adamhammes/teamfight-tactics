@@ -3,12 +3,19 @@ const path = require("path");
 const championDetailComponent = path.resolve('./src/components/champion-detail.js');
 
 const championDetails = `
-  query ChampionListing {
+  query ChampionDetails {
     allChampionListJson {
       edges {
         node {
           slug
           name
+          ability {
+            description
+            name
+          }
+          class
+          origin
+          cost
         }
       }
     }

@@ -35,7 +35,7 @@
             "phantomdancer",
             "dragonsclaw"
         ],
-        "slug": "Aatrox"
+        "slug": "aatrox"
     },
     {
         "id": "103",
@@ -73,7 +73,7 @@
             "guinsoosrageblade",
             "rabadonsdeathcap"
         ],
-        "slug": "Ahri"
+        "slug": "ahri"
     },
     {
         "id": "84",
@@ -111,7 +111,7 @@
             "hextechgunblade",
             "infinityedge"
         ],
-        "slug": "Akali"
+        "slug": "akali"
     },
     {
         "id": "34",
@@ -149,7 +149,7 @@
             "morellonomicon",
             "rabadonsdeathcap"
         ],
-        "slug": "Anivia"
+        "slug": "anivia"
     },
     {
         "id": "22",
@@ -187,7 +187,7 @@
             "guinsoosrageblade",
             "runaanshurricane"
         ],
-        "slug": "Ashe"
+        "slug": "ashe"
     },
     {
         "id": "136",
@@ -225,7 +225,7 @@
             "guinsoosrageblade",
             "rabadonsdeathcap"
         ],
-        "slug": "AurelionSol"
+        "slug": "aurelion-sol"
     },
     {
         "id": "53",
@@ -263,7 +263,7 @@
             "warmogsarmor",
             "dragonsclaw"
         ],
-        "slug": "Blitzcrank"
+        "slug": "blitzcrank"
     },
     {
         "id": "63",
@@ -301,7 +301,7 @@
             "guinsoosrageblade",
             "rabadonsdeathcap"
         ],
-        "slug": "Brand"
+        "slug": "brand"
     },
     {
         "id": "201",
@@ -339,7 +339,7 @@
             "zekesherald",
             "dragonsclaw"
         ],
-        "slug": "Braum"
+        "slug": "braum"
     },
     {
         "id": "31",
@@ -377,7 +377,7 @@
             "warmogsarmor",
             "dragonsclaw"
         ],
-        "slug": "ChoGath"
+        "slug": "chogath"
     },
     {
         "id": "122",
@@ -415,7 +415,7 @@
             "warmogsarmor",
             "phantomdancer"
         ],
-        "slug": "Darius"
+        "slug": "darius"
     },
     {
         "id": "119",
@@ -453,7 +453,7 @@
             "rapidfirecannon",
             "phantomdancer"
         ],
-        "slug": "Draven"
+        "slug": "draven"
     },
     {
         "id": "60",
@@ -491,7 +491,7 @@
             "guinsoosrageblade",
             "phantomdancer"
         ],
-        "slug": "Elise"
+        "slug": "elise"
     },
     {
         "id": "28",
@@ -528,7 +528,7 @@
             "rabadonsdeathcap",
             "morellonomicon"
         ],
-        "slug": "Evelynn"
+        "slug": "evelynn"
     },
     {
         "id": "114",
@@ -566,7 +566,7 @@
             "zekesherald",
             "phantomdancer"
         ],
-        "slug": "Fiora"
+        "slug": "fiora"
     },
     {
         "id": "41",
@@ -604,7 +604,7 @@
             "titanichydra",
             "morellonomicon"
         ],
-        "slug": "Gangplank"
+        "slug": "gangplank"
     },
     {
         "id": "86",
@@ -642,7 +642,7 @@
             "warmogsarmor",
             "phantomdancer"
         ],
-        "slug": "Garen"
+        "slug": "garen"
     },
     {
         "id": "150",
@@ -681,7 +681,7 @@
             "warmogsarmor",
             "phantomdancer"
         ],
-        "slug": "Gnar"
+        "slug": "gnar"
     },
     {
         "id": "104",
@@ -719,7 +719,7 @@
             "titanichydra",
             "warmogsarmor"
         ],
-        "slug": "Graves"
+        "slug": "graves"
     },
     {
         "id": "30",
@@ -757,7 +757,7 @@
             "rabadonsdeathcap",
             "seraphsembrace"
         ],
-        "slug": "Karthus"
+        "slug": "karthus"
     },
     {
         "id": "38",
@@ -795,7 +795,7 @@
             "phantomdancer",
             "dragonsclaw"
         ],
-        "slug": "Kassadin"
+        "slug": "kassadin"
     },
     {
         "id": "55",
@@ -833,7 +833,7 @@
             "rabadonsdeathcap",
             "seraphsembrace"
         ],
-        "slug": "Katarina"
+        "slug": "katarina"
     },
     {
         "id": "10",
@@ -871,7 +871,7 @@
             "guinsoosrageblade",
             "seraphsembrace"
         ],
-        "slug": "Kayle"
+        "slug": "kayle"
     },
     {
         "id": "85",
@@ -910,7 +910,7 @@
             "rabadonsdeathcap",
             "seraphsembrace"
         ],
-        "slug": "Kennen"
+        "slug": "kennen"
     },
     {
         "id": "121",
@@ -948,7 +948,7 @@
             "infinityedge",
             "phantomdancer"
         ],
-        "slug": "KhaZix"
+        "slug": "khazix"
     },
     {
         "id": "203",
@@ -985,7 +985,7 @@
             "guinsoosrageblade",
             "infinityedge"
         ],
-        "slug": "Kindred"
+        "slug": "kindred"
     },
     {
         "id": "89",
@@ -1022,7 +1022,7 @@
             "zekesherald",
             "frozenheart"
         ],
-        "slug": "Leona"
+        "slug": "leona"
     },
     {
         "id": "127",
@@ -1060,7 +1060,7 @@
             "rabadonsdeathcap",
             "seraphsembrace"
         ],
-        "slug": "Lissandra"
+        "slug": "lissandra"
     },
     {
         "id": "236",
@@ -1098,7 +1098,7 @@
             "spearofshojin",
             "rapidfirecannon"
         ],
-        "slug": "Lucian"
+        "slug": "lucian"
     },
     {
         "id": "117",
@@ -1136,7 +1136,7 @@
             "rabadonsdeathcap",
             "spearofshojin"
         ],
-        "slug": "Lulu"
+        "slug": "lulu"
     },
     {
         "id": "21",
@@ -1174,7 +1174,7 @@
             "rabadonsdeathcap",
             "morellonomicon"
         ],
-        "slug": "MissFortune"
+        "slug": "miss-fortune"
     },
     {
         "id": "82",
@@ -1212,7 +1212,7 @@
             "phantomdancer",
             "dragonsclaw"
         ],
-        "slug": "Mordekaiser"
+        "slug": "mordekaiser"
     },
     {
         "id": "25",
@@ -1250,7 +1250,7 @@
             "rabadonsdeathcap",
             "seraphsembrace"
         ],
-        "slug": "Morgana"
+        "slug": "morgana"
     },
     {
         "id": "76",
@@ -1288,7 +1288,7 @@
             "bloodthirster",
             "guinsoosrageblade"
         ],
-        "slug": "Nidalee"
+        "slug": "nidalee"
     },
     {
         "id": "78",
@@ -1326,7 +1326,7 @@
             "phantomdancer",
             "dragonsclaw"
         ],
-        "slug": "Poppy"
+        "slug": "poppy"
     },
     {
         "id": "555",
@@ -1364,7 +1364,7 @@
             "rabadonsdeathcap",
             "guinsoosrageblade"
         ],
-        "slug": "Pyke"
+        "slug": "pyke"
     },
     {
         "id": "421",
@@ -1402,7 +1402,7 @@
             "phantomdancer",
             "dragonsclaw"
         ],
-        "slug": "RekSai"
+        "slug": "reksai"
     },
     {
         "id": "107",
@@ -1440,7 +1440,7 @@
             "guinsoosrageblade",
             "rapidfirecannon"
         ],
-        "slug": "Rengar"
+        "slug": "rengar"
     },
     {
         "id": "113",
@@ -1478,7 +1478,7 @@
             "phantomdancer",
             "dragonsclaw"
         ],
-        "slug": "Sejuani"
+        "slug": "sejuani"
     },
     {
         "id": "98",
@@ -1516,7 +1516,7 @@
             "phantomdancer",
             "dragonsclaw"
         ],
-        "slug": "Shen"
+        "slug": "shen"
     },
     {
         "id": "102",
@@ -1554,7 +1554,7 @@
             "phantomdancer",
             "warmogsarmor"
         ],
-        "slug": "Shyvana"
+        "slug": "shyvana"
     },
     {
         "id": "50",
@@ -1593,7 +1593,7 @@
             "phantomdancer",
             "dragonsclaw"
         ],
-        "slug": "Swain"
+        "slug": "swain"
     },
     {
         "id": "18",
@@ -1631,7 +1631,7 @@
             "runaanshurricane",
             "guinsoosrageblade"
         ],
-        "slug": "Tristana"
+        "slug": "tristana"
     },
     {
         "id": "4",
@@ -1669,7 +1669,7 @@
             "ludensecho",
             "guinsoosrageblade"
         ],
-        "slug": "TwistedFate"
+        "slug": "twisted-fate"
     },
     {
         "id": "110",
@@ -1707,7 +1707,7 @@
             "rabadonsdeathcap",
             "guinsoosrageblade"
         ],
-        "slug": "Varus"
+        "slug": "varus"
     },
     {
         "id": "67",
@@ -1745,7 +1745,7 @@
             "runaanshurricane",
             "guinsoosrageblade"
         ],
-        "slug": "Vayne"
+        "slug": "vayne"
     },
     {
         "id": "45",
@@ -1783,7 +1783,7 @@
             "rabadonsdeathcap",
             "guinsoosrageblade"
         ],
-        "slug": "Veigar"
+        "slug": "veigar"
     },
     {
         "id": "106",
@@ -1821,7 +1821,7 @@
             "warmogsarmor",
             "phantomdancer"
         ],
-        "slug": "Volibear"
+        "slug": "volibear"
     },
     {
         "id": "19",
@@ -1859,7 +1859,7 @@
             "warmogsarmor",
             "phantomdancer"
         ],
-        "slug": "Warwick"
+        "slug": "warwick"
     },
     {
         "id": "157",
@@ -1897,7 +1897,7 @@
             "warmogsarmor",
             "phantomdancer"
         ],
-        "slug": "Yasuo"
+        "slug": "yasuo"
     },
     {
         "id": "238",
@@ -1935,6 +1935,6 @@
             "bloodthirster",
             "rapidfirecannon"
         ],
-        "slug": "Zed"
+        "slug": "zed"
     }
 ]
