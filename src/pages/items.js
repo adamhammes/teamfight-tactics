@@ -34,7 +34,7 @@ const ItemsListing = ({ data }) => {
   console.log(zippedItems);
 
   return (
-    <table>
+    <table style={{ fontSize: 15 }}>
       <thead>
         <tr>
           <td>&nbsp;</td>
