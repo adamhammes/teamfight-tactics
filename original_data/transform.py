@@ -21,7 +21,7 @@ def slugify(s):
 
 def champions():
     with open('champions-backup.json') as f:
-        raw_champions = json.load(f)
+        raw_champions = json.load(f, object_pairs_hook=collections.OrderedDict)
 
     champions_list = list(raw_champions.values())
 
