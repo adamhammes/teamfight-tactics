@@ -50,13 +50,13 @@ const ItemsListing = ({ data }) => {
       </thead>
       <tbody>
         {zippedItems.map(([item, combined]) => (
-          <tr key={`${item.key} - ${combined.key}`}>
+          <tr valign="top" key={`${item.key} - ${combined.key}`}>
             <td onClick={() => setSelectedItemKey(item.key)}>
               <div style={{ width: `3rem`, height: `3rem`, overflow: 'hidden' }}>
                 <Image src={`item-icons/${item.key}.jpg`}/>
               </div>
             </td>
-            <td>
+            <td style={{ height: '3.5rem' }}>
               <div style={{ width: `3rem`, height: `3rem`, overflow: 'hidden' }}>
                 <Image src={`item-icons/${combined.key}.jpg`}/>
               </div>
