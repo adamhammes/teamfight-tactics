@@ -4,7 +4,14 @@ import { Image, useMatchMedia, useIsMounted } from "../utils/index";
 import { css } from "@emotion/core";
 
 const ItemImage = ({ item }) => (
-  <div style={{ width: `3rem`, height: `3rem`, overflow: "hidden" }}>
+  <div
+    style={{
+      borderRadius: "0.25rem",
+      width: `3rem`,
+      height: `3rem`,
+      overflow: "hidden"
+    }}
+  >
     <Image src={`item-icons/${item.key}.jpg`} />
   </div>
 );
