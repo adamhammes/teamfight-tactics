@@ -17,31 +17,38 @@ const listStyle = css`
     }
   }
 
-
   li + li {
     margin-top: 1rem;
   }
-`
+`;
 
 const ChampionListing = ({ data }) => {
-  const champions = data.allChampionListJson.edges
-    .map(edge => edge.node);
+  const champions = data.allChampionListJson.edges.map(edge => edge.node);
 
   return (
     <ul css={listStyle}>
       {champions.map(champion => (
         <li key={champion.slug}>
-          <div style={{ width: `3rem`, height: `3rem`, borderRadius: '50%', overflow: 'hidden' }}>
-            <Image src={`champion-icons/${champion.slug}.jpg`} height="100" width="100"/>
+          <div
+            style={{
+              width: `3rem`,
+              height: `3rem`,
+              borderRadius: "50%",
+              overflow: "hidden"
+            }}
+          >
+            <Image
+              src={`champion-icons/${champion.slug}.jpg`}
+              height="100"
+              width="100"
+            />
           </div>
-          <Link to={`/champions/${champion.slug}`}>
-            {champion.name}
-          </Link>
+          <Link to={`/champions/${champion.slug}`}>{champion.name}</Link>
         </li>
       ))}
     </ul>
   );
-}
+};
 
 export default ChampionListing;
 
@@ -57,4 +64,3 @@ export const query = graphql`
     }
   }
 `;
-

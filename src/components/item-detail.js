@@ -9,6 +9,6 @@ const ItemDetails = data => {
       {item.bonus}
     </>
   );
-}
+};
 
 export default ItemDetails;
