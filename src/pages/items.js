@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { graphql } from "gatsby";
 import { Image, useMatchMedia, useIsMounted } from "../utils/index";
 import { css } from "@emotion/core";
+import Tippy from "@tippy.js/react";
+import "./tippy.css";
 
 const ItemImage = ({ item }) => (
   <div
@@ -14,6 +16,24 @@ const ItemImage = ({ item }) => (
   >
     <Image src={`item-icons/${item.key}.jpg`} />
   </div>
+);
+
+const ItemTooltip = ({ item, children }) => (
+  <Tippy
+    key={item.key}
+    arrow={true}
+    maxWidth="10rem"
+    content={
+      <>
+        <div>
+          <strong>{item.name}</strong>
+        </div>
+        <div>{item.bonus}</div>
+      </>
+    }
+  >
+    {children}
+  </Tippy>
 );
 
 const MobileLayout = ({ zippedItems, setSelectedItemKey, selectedItem }) => (
@@ -47,6 +67,10 @@ const desktopCss = css`
   display: flex;
   justify-content: center;
 
+  table {
+    border-spacing: 0;
+  }
+
   td,
   th {
     padding: 0.25rem;
@@ -60,22 +84,28 @@ const DesktopLayout = ({ basicItems, itemGrid }) => (
         <tr>
           <th>&nbsp;</th>
           {basicItems.map(item => (
-            <th key={item.key}>
-              <ItemImage item={item} />
-            </th>
+            <ItemTooltip key={item.key} item={item}>
+              <td>
+                <ItemImage item={item} />
+              </td>
+            </ItemTooltip>
           ))}
         </tr>
       </thead>
       <tbody>
         {itemGrid.map((row, rowIndex) => (
           <tr key={rowIndex}>
-            <td>
-              <ItemImage item={basicItems[rowIndex]} />
-            </td>
-            {row.map(combinedItem => (
-              <td key={combinedItem.key}>
-                <ItemImage item={combinedItem} />
+            <ItemTooltip key={rowIndex} item={basicItems[rowIndex]}>
+              <td>
+                <ItemImage item={basicItems[rowIndex]} />
               </td>
+            </ItemTooltip>
+            {row.map(combinedItem => (
+              <ItemTooltip key={combinedItem.key} item={combinedItem}>
+                <td>
+                  <ItemImage item={combinedItem} />
+                </td>
+              </ItemTooltip>
             ))}
           </tr>
         ))}
@@ -86,9 +116,10 @@ const DesktopLayout = ({ basicItems, itemGrid }) => (
 
 const ItemsListing = ({ data }) => {
   const isMounted = useIsMounted();
-  const isDesktop = useMatchMedia("(min-width: 700px)");
+  const isDesktop = useMatchMedia("(min-width: 500px)");
 
   const items = data.items.edges.map(edge => edge.node);
+  console.log(items[0]);
 
   const basicItems = items.filter(item => item.kind === "basic");
   const [selectedItemKey, setSelectedItemKey] = useState(basicItems[0].key);
