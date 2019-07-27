@@ -46,7 +46,7 @@
       "type": "Active",
       "manaCost": 75,
       "manaStart": 0,
-      "stats": [{ "type": "Damage", "value": "100 / 175 / 250" }]
+      "stats": [{ "type": "Damage", "value": "100 / 200 / 300" }]
     },
     "stats": {
       "offense": {
@@ -85,12 +85,12 @@
     "stats": {
       "offense": {
         "damage": 70,
-        "attackSpeed": 0.75,
+        "attackSpeed": 0.7,
         "dps": 53,
         "range": 1
       },
       "defense": {
-        "health": 700,
+        "health": 650,
         "armor": 20,
         "magicResist": 20
       }
@@ -125,7 +125,7 @@
         "damage": 40,
         "attackSpeed": 0.6,
         "dps": 24,
-        "range": 4
+        "range": 3
       },
       "defense": {
         "health": 650,
@@ -162,7 +162,7 @@
         "damage": 60,
         "attackSpeed": 0.7,
         "dps": 42,
-        "range": 5
+        "range": 4
       },
       "defense": {
         "health": 550,
@@ -498,13 +498,13 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "damage": 60,
         "attackSpeed": 0.6,
         "dps": 50,
         "range": 1
       },
       "defense": {
-        "health": 600,
+        "health": 550,
         "armor": 20,
         "magicResist": 20
       }
@@ -870,7 +870,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 70,
+        "damage": 65,
         "attackSpeed": 0.65,
         "dps": 36,
         "range": 2
@@ -1176,7 +1176,7 @@
         "range": 1
       },
       "defense": {
-        "health": 500,
+        "health": 550,
         "armor": 35,
         "magicResist": 20
       }
@@ -1277,7 +1277,7 @@
       "manaCost": 75,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "300 / 400 / 500" },
+        { "type": "Damage", "value": "300 / 500 / 700" },
         { "type": "Knockup Duration", "value": "1s" },
         { "type": "Stun Duration", "value": "2s / 3s / 4s" },
         { "type": "Number of Targets Hit", "value": "1 / 2 / 3" }
@@ -1401,7 +1401,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 55,
+        "damage": 65,
         "attackSpeed": 0.55,
         "dps": 30,
         "range": 1
@@ -1586,7 +1586,7 @@
     "stats": {
       "offense": {
         "damage": 50,
-        "attackSpeed": 0.7,
+        "attackSpeed": 0.65,
         "dps": 35,
         "range": 4
       },
@@ -1598,8 +1598,8 @@
     },
     "items": [
       "titanichydra",
-      "runaanshurricane",
-      "guinsoosrageblade"
+      "cursedblade",
+      "redbuff"
     ]
   },
   "TwistedFate": {
@@ -1766,20 +1766,20 @@
     "stats": {
       "offense": {
         "damage": 75,
-        "attackSpeed": 0.65,
+        "attackSpeed": 0.55,
         "dps": 38,
         "range": 1
       },
       "defense": {
         "health": 700,
-        "armor": 35,
+        "armor": 30,
         "magicResist": 20
       }
     },
     "items": [
       "titanichydra",
-      "warmogsarmor",
-      "phantomdancer"
+      "cursedblade",
+      "rapidfirecannon"
     ]
   },
   "Warwick": {
