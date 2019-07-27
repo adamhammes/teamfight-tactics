@@ -119,7 +119,6 @@ const ItemsListing = ({ data }) => {
   const isDesktop = useMatchMedia("(min-width: 500px)");
 
   const items = data.items.edges.map(edge => edge.node);
-  console.log(items[0]);
 
   const basicItems = items.filter(item => item.kind === "basic");
   const [selectedItemKey, setSelectedItemKey] = useState(basicItems[0].key);
