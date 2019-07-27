@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: 'items',
+        name: "items",
         path: "original_data/items.json"
       }
     },
@@ -25,4 +25,4 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-emotion",
   ]
-}
+};
