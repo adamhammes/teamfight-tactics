@@ -50,8 +50,8 @@ const Image = function(props) {
                 extension
                 relativePath
                 childImageSharp {
-                  fluid(maxWidth: 1000) {
-                    ...GatsbyImageSharpFluid_withWebp
+                  fluid(maxWidth: 96) {
+                    ...GatsbyImageSharpFluid_withWebp_noBase64
                   }
                 }
               }
