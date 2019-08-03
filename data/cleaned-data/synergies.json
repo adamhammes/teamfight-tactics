@@ -7,15 +7,18 @@
         "bonuses": [
             {
                 "needed": 2, 
-                "effect": "20% chance on hit to Mana Burn"
+                "effect": "20% chance on hit to Mana Burn", 
+                "exclusive": false
             }, 
             {
                 "needed": 4, 
-                "effect": "35% chance on hit to Mana Burn"
+                "effect": "35% chance on hit to Mana Burn", 
+                "exclusive": false
             }, 
             {
                 "needed": 6, 
-                "effect": "60% chance on hit to Mana Burn"
+                "effect": "60% chance on hit to Mana Burn", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -28,7 +31,8 @@
         "bonuses": [
             {
                 "needed": 2, 
-                "effect": "Dragons are immune to 83% Magic damage"
+                "effect": "Dragons are immune to 83% Magic damage", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -41,7 +45,8 @@
         "bonuses": [
             {
                 "needed": 1, 
-                "effect": "If an Exile has no adjacent allies at the start of combat, they gain a shield equal to a 100% max health."
+                "effect": "If an Exile has no adjacent allies at the start of combat, they gain a shield equal to a 100% max health.", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -54,15 +59,18 @@
         "bonuses": [
             {
                 "needed": 2, 
-                "effect": "20% chance"
+                "effect": "20% chance", 
+                "exclusive": false
             }, 
             {
                 "needed": 4, 
-                "effect": "30% chance"
+                "effect": "30% chance", 
+                "exclusive": false
             }, 
             {
                 "needed": 6, 
-                "effect": "45% chance"
+                "effect": "45% chance", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -75,11 +83,13 @@
         "bonuses": [
             {
                 "needed": 2, 
-                "effect": "1 random Imperial"
+                "effect": "1 random Imperial", 
+                "exclusive": false
             }, 
             {
                 "needed": 4, 
-                "effect": "All Imperials"
+                "effect": "All Imperials", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -92,11 +102,13 @@
         "bonuses": [
             {
                 "needed": 3, 
-                "effect": "1 random ally"
+                "effect": "1 random ally", 
+                "exclusive": false
             }, 
             {
                 "needed": 6, 
-                "effect": "All allies"
+                "effect": "All allies", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -109,11 +121,13 @@
         "bonuses": [
             {
                 "needed": 1, 
-                "effect": "1 Ninja only: Ninja gains +40% Attack Damage & Ability Power"
+                "effect": "1 Ninja only: Ninja gains +40% Attack Damage & Ability Power", 
+                "exclusive": true
             }, 
             {
                 "needed": 4, 
-                "effect": "4 Ninjas: All Ninjas gain +60% Attack Damage & Ability Power"
+                "effect": "4 Ninjas: All Ninjas gain +60% Attack Damage & Ability Power", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -126,7 +140,8 @@
         "bonuses": [
             {
                 "needed": 3, 
-                "effect": "Earn up to 4 additional gold after combat against another player (avg 1.6g per chest)."
+                "effect": "Earn up to 4 additional gold after combat against another player (avg 1.6g per chest).", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -139,7 +154,8 @@
         "bonuses": [
             {
                 "needed": 2, 
-                "effect": "Curse a random enemy at the start of combat, setting their HP to 100."
+                "effect": "Curse a random enemy at the start of combat, setting their HP to 100.", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -152,7 +168,8 @@
         "bonuses": [
             {
                 "needed": 1, 
-                "effect": "Robots start combat at full mana"
+                "effect": "Robots start combat at full mana", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -165,7 +182,8 @@
         "bonuses": [
             {
                 "needed": 3, 
-                "effect": "Void units deal True Damage."
+                "effect": "Void units deal True Damage.", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -178,11 +196,13 @@
         "bonuses": [
             {
                 "needed": 2, 
-                "effect": "Wild allies only"
+                "effect": "Wild allies only", 
+                "exclusive": false
             }, 
             {
                 "needed": 4, 
-                "effect": "All allies"
+                "effect": "All allies", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -195,11 +215,13 @@
         "bonuses": [
             {
                 "needed": 3, 
-                "effect": "30% chance to miss."
+                "effect": "30% chance to miss.", 
+                "exclusive": false
             }, 
             {
                 "needed": 6, 
-                "effect": "55% chance to miss."
+                "effect": "55% chance to miss.", 
+                "exclusive": false
             }
         ], 
         "type": "origin"
@@ -212,11 +234,13 @@
         "bonuses": [
             {
                 "needed": 3, 
-                "effect": "+125% critical strike damage."
+                "effect": "+125% critical strike damage.", 
+                "exclusive": false
             }, 
             {
                 "needed": 6, 
-                "effect": "+350% critical strike damage."
+                "effect": "+350% critical strike damage.", 
+                "exclusive": false
             }
         ], 
         "type": "class"
@@ -229,11 +253,13 @@
         "bonuses": [
             {
                 "needed": 3, 
-                "effect": "One additional strike"
+                "effect": "One additional strike", 
+                "exclusive": false
             }, 
             {
                 "needed": 6, 
-                "effect": "Two additional strikes"
+                "effect": "Two additional strikes", 
+                "exclusive": false
             }
         ], 
         "type": "class"
@@ -246,11 +272,13 @@
         "bonuses": [
             {
                 "needed": 2, 
-                "effect": "+300 Bonus health."
+                "effect": "+300 Bonus health.", 
+                "exclusive": false
             }, 
             {
                 "needed": 4, 
-                "effect": "+700 Bonus health."
+                "effect": "+700 Bonus health.", 
+                "exclusive": false
             }
         ], 
         "type": "class"
@@ -263,7 +291,8 @@
         "bonuses": [
             {
                 "needed": 3, 
-                "effect": "At the start of combat, summon an Elemental. Elemental has 2200 health and 100 Attack Damage."
+                "effect": "At the start of combat, summon an Elemental. Elemental has 2200 health and 100 Attack Damage.", 
+                "exclusive": false
             }
         ], 
         "type": "class"
@@ -276,7 +305,8 @@
         "bonuses": [
             {
                 "needed": 2, 
-                "effect": "At the start of combat, all adjacent allies receive +50 armor. Stacks any number of times."
+                "effect": "At the start of combat, all adjacent allies receive +50 armor. Stacks any number of times.", 
+                "exclusive": false
             }
         ], 
         "type": "class"
@@ -289,11 +319,13 @@
         "bonuses": [
             {
                 "needed": 2, 
-                "effect": "Attack another random enemy."
+                "effect": "Attack another random enemy.", 
+                "exclusive": false
             }, 
             {
                 "needed": 4, 
-                "effect": "Attack 2 additional random enemies in range."
+                "effect": "Attack 2 additional random enemies in range.", 
+                "exclusive": false
             }
         ], 
         "type": "class"
@@ -306,15 +338,18 @@
         "bonuses": [
             {
                 "needed": 2, 
-                "effect": "15 damage."
+                "effect": "15 damage.", 
+                "exclusive": false
             }, 
             {
                 "needed": 4, 
-                "effect": "30 damage."
+                "effect": "30 damage.", 
+                "exclusive": false
             }, 
             {
                 "needed": 6, 
-                "effect": "55 damage."
+                "effect": "55 damage.", 
+                "exclusive": false
             }
         ], 
         "type": "class"
@@ -327,11 +362,13 @@
         "bonuses": [
             {
                 "needed": 2, 
-                "effect": "25% chance."
+                "effect": "25% chance.", 
+                "exclusive": false
             }, 
             {
                 "needed": 4, 
-                "effect": "65% chance."
+                "effect": "65% chance.", 
+                "exclusive": false
             }
         ], 
         "type": "class"
@@ -344,7 +381,8 @@
         "bonuses": [
             {
                 "needed": 3, 
-                "effect": "+60% bonus max health"
+                "effect": "+60% bonus max health", 
+                "exclusive": false
             }
         ], 
         "type": "class"
@@ -357,11 +395,13 @@
         "bonuses": [
             {
                 "needed": 3, 
-                "effect": "+45% Spell Damage"
+                "effect": "+45% Spell Damage", 
+                "exclusive": false
             }, 
             {
                 "needed": 6, 
-                "effect": "+100% Spell Damage"
+                "effect": "+100% Spell Damage", 
+                "exclusive": false
             }
         ], 
         "type": "class"

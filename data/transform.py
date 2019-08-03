@@ -89,6 +89,11 @@ def synergies():
 
     synergies = list(origins.values()) + list(classes.values())
 
+    for synergy in synergies:
+        for bonus in synergy["bonuses"]:
+            bonus_is_exclusive = synergy["key"] == "ninja" and bonus["needed"] == 1
+            bonus["exclusive"] = bonus_is_exclusive
+
     with open("data/cleaned-data/synergies.json", "w") as f:
         json.dump(synergies, f, indent=4)
 
