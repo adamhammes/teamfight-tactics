@@ -22,7 +22,7 @@ const synergyCalculator = (synergies, champions) => {
       championHasSynergy(synergy, champion)
     );
 
-    if (applicableChampions.length <= 1) {
+    if (applicableChampions.length < 1) {
       continue;
     }
 
