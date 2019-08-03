@@ -12,6 +12,9 @@ const synergyExplorerCss = css`
 const championPickerCss = css`
   margin-right: 2rem;
   flex: 0 0 15rem;
+
+  display: flex;
+  flex-direction: column;
 `;
 
 const championListCss = css`
@@ -36,27 +39,30 @@ const SynergyExplorer = ({ data }) => {
   return (
     <div css={synergyExplorerCss}>
       <div css={championPickerCss}>
+        <h2>Construct your team...</h2>
         <ChampionSelector
           champions={champions}
           onSelectChampion={onSelectChampion}
         />
+        <ul css={championListCss}>
+          {selectedChampions.map(champion => (
+            <li key={champion.slug}>{champion.name}</li>
+          ))}
+        </ul>
       </div>
-
-      <ul css={championListCss}>
-        {selectedChampions.map(champion => (
-          <li key={champion.slug}>{champion.name}</li>
-        ))}
-      </ul>
-      <ul css={synergyListCss}>
-        {achievedSynergies.map(({ synergy, bonus }) => (
-          <li key={synergy.key}>
-            <div>
-              <strong>{synergy.name}</strong>
-            </div>
-            <p>{bonus.effect}</p>
-          </li>
-        ))}
-      </ul>
+      <div>
+        <h2>and see your synergies!</h2>
+        <ul>
+          {achievedSynergies.map(({ synergy, bonus }) => (
+            <li key={synergy.key}>
+              <div>
+                <strong>{synergy.name}</strong>
+              </div>
+              <p>{bonus.effect}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
