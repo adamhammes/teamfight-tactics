@@ -11,7 +11,7 @@ const synergyExplorerCss = css`
 
 const championPickerCss = css`
   margin-right: 2rem;
-  flex-grow: 0;
+  flex: 0 0 15rem;
 `;
 
 const championListCss = css`

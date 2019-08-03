@@ -1,27 +1,24 @@
-import React, { useRef } from "react";
+import React from "react";
+
+import Select from "react-select";
 
 const ChampionSelector = ({ champions, onSelectChampion }) => {
-  const inputRef = useRef(null);
+  const options = champions.map(champion => ({
+    label: champion.name,
+    value: champion
+  }));
 
-  const onInput = e => {
-    const value = e.target.value;
-    const champion = champions.find(champion => champion.name === value);
-    if (champion) {
-      onSelectChampion(champion);
-    }
-  };
+  const onChange = option => onSelectChampion(option.value);
 
   return (
-    <>
-      <label htmlFor="champion-selector">
-        <input ref={inputRef} list="champion-selector" onInput={onInput} />
-      </label>
-      <datalist id="champion-selector">
-        {champions.map(champion => (
-          <option key={champion.slug} value={champion.name} />
-        ))}
-      </datalist>
-    </>
+    <Select
+      className="basic-single"
+      classNamePrefix="select"
+      onChange={onChange}
+      name="champion"
+      placeholder="Add a champion..."
+      options={options}
+    />
   );
 };
 
