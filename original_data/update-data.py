@@ -2,8 +2,8 @@ import urllib.request
 from transform import main as run_transform
 
 json_files = {
-    'items-backup.json': 'https://solomid-resources.s3.amazonaws.com/blitz/tft/data/items.json',
-    'champions-backup.json': 'https://solomid-resources.s3.amazonaws.com/blitz/tft/data/champions.json'
+    'solomid/items-backup.json': 'https://solomid-resources.s3.amazonaws.com/blitz/tft/data/items.json',
+    'solomid/champions-backup.json': 'https://solomid-resources.s3.amazonaws.com/blitz/tft/data/champions.json'
 }
 
 def main():
