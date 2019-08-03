@@ -12,18 +12,26 @@ const synergyExplorerCss = css`
 
 const championPickerCss = css`
   margin-right: 2rem;
-  flex: 0 0 15rem;
+  flex: 0 0 20rem;
 
   display: flex;
   flex-direction: column;
 `;
 
 const championListCss = css`
-  margin-right: 2rem;
+  padding: 0;
+  margin-right: 0;
   flex-grow: 0;
 
   list-style-type: none;
-  padding: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  li {
+    flex: 1 0 50%;
+  }
 
   li + li {
     margin-top: 0.5rem;
