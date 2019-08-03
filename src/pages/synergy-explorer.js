@@ -4,6 +4,7 @@ import { css } from "@emotion/core";
 
 import ChampionSelector from "../components/champion-selector";
 import synergyCalculator from "../utils/synergy-calculator";
+import SynergyExplorerChampionView from "../components/synergy-explorer-champion-view";
 
 const synergyExplorerCss = css`
   display: flex;
@@ -20,6 +21,13 @@ const championPickerCss = css`
 const championListCss = css`
   margin-right: 2rem;
   flex-grow: 0;
+
+  list-style-type: none;
+  padding: 1rem;
+
+  li + li {
+    margin-top: 0.5rem;
+  }
 `;
 
 const synergyListCss = css`
@@ -53,7 +61,9 @@ const SynergyExplorer = ({ data }) => {
         />
         <ul css={championListCss}>
           {selectedChampions.map(champion => (
-            <li key={champion.slug}>{champion.name}</li>
+            <li key={champion.slug}>
+              <SynergyExplorerChampionView champion={champion} />
+            </li>
           ))}
         </ul>
       </div>
