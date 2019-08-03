@@ -8,7 +8,7 @@ const championHasSynergy = (synergy, champion) => {
 
 const haveAchievedBonus = (uniqueChampionCount, bonus) => {
   if (bonus.exclusive) {
-    return uniqueChampionCount == bonus.needed;
+    return uniqueChampionCount === bonus.needed;
   }
 
   return uniqueChampionCount >= bonus.needed;
