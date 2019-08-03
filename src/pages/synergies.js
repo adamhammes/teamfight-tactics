@@ -11,7 +11,7 @@ const synergyBonusesStyles = css`
 const SynergyView = ({ synergy }) => (
   <>
     <h2>{synergy.name}</h2>
-    <p>{synergy.description}</p>
+    {synergy.description && <p>{synergy.description}</p>}
     <table>
       <tbody css={synergyBonusesStyles}>
         {synergy.bonuses.map(bonus => (
