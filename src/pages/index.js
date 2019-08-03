@@ -12,5 +12,8 @@ export default () => (
     <li>
       <Link to="/synergies">synergies</Link>
     </li>
+    <li>
+      <Link to="/synergy-explorer">synergy explorer</Link>
+    </li>
   </ul>
 );
