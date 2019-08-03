@@ -9,10 +9,10 @@ def slugify(s):
     for c in [" ", "-", ".", "/"]:
         s = s.replace(c, "_")
 
-    s = re.sub("\W", "", s)
+    s = re.sub(r"\W", "", s)
 
     s = s.replace("_", " ")
-    s = re.sub("\s+", " ", s)
+    s = re.sub(r"\s+", " ", s)
     s = s.strip()
     s = s.replace(" ", "-")
 
@@ -35,7 +35,7 @@ def champions():
         ability = champion["ability"]
         del ability["stats"]
 
-    with open("data/champion-list.json", "w") as f:
+    with open("data/cleaned-data/champion-list.json", "w") as f:
         json.dump(champions_list, f, indent=4)
 
 
@@ -73,13 +73,30 @@ def items():
         item["buildsInto"] = new_builds_into
         item["buildsFrom"] = new_builds_from
 
-    with open("data/items.json", "w") as f:
+    with open("data/cleaned-data/items.json", "w") as f:
         json.dump(items, f, indent=4)
+
+
+def synergies():
+    classes = load_json("data/solomid/classes-backup.json")
+    origins = load_json("data/solomid/origins-backup.json")
+
+    for _class in classes.values():
+        _class["type"] = "class"
+
+    for origin in origins.values():
+        origin["type"] = "origin"
+
+    synergies = list(origins.values()) + list(classes.values())
+
+    with open("data/cleaned-data/synergies.json", "w") as f:
+        json.dump(synergies, f, indent=4)
 
 
 def main():
     champions()
     items()
+    synergies()
 
 
 if __name__ == "__main__":

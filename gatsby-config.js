@@ -3,14 +3,21 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: "original_data/champion-list.json"
+        path: "data/cleaned-data/champion-list.json"
       }
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "items",
-        path: "original_data/items.json"
+        path: "data/cleaned-data/items.json"
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "synergies",
+        path: "data/cleaned-data/synergies.json"
       }
     },
     "gatsby-transformer-json",
