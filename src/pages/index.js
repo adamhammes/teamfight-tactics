@@ -9,5 +9,8 @@ export default () => (
     <li>
       <Link to="/items">items</Link>
     </li>
+    <li>
+      <Link to="/synergies">synergies</Link>
+    </li>
   </ul>
 );
