@@ -57,7 +57,7 @@ def items():
     basic_items_keys = basic_items.keys()
 
     for item in items:
-        new_builds_into = {}
+        new_builds_into = collections.OrderedDict()
         new_builds_from = []
         if item['kind'] == 'basic':
             builds_into = item['buildsInto']
