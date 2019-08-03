@@ -12,7 +12,7 @@
       "type": "Active",
       "manaCost": 75,
       "manaStart": 0,
-      "stats": [{ "type": "Damage", "value": "400 / 700 / 1000" }]
+      "stats": [{ "type": "Damage", "value": "250 / 600 / 950" }]
     },
     "stats": {
       "offense": {
@@ -22,15 +22,15 @@
         "range": 1
       },
       "defense": {
-        "health": 750,
+        "health": 700,
         "armor": 25,
         "magicResist": 20
       }
     },
     "items": [
-      "titanichydra",
-      "phantomdancer",
-      "dragonsclaw"
+      "hextechgunblade",
+      "rabadonsdeathcap",
+      "guardianangel"
     ]
   },
   "Ahri": {
@@ -62,8 +62,8 @@
       }
     },
     "items": [
-      "spearofshojin",
-      "guinsoosrageblade",
+      "morellonomicon",
+      "ludensecho",
       "rabadonsdeathcap"
     ]
   },
@@ -80,7 +80,7 @@
       "type": "Active",
       "manaCost": 25,
       "manaStart": 0,
-      "stats": [{ "type": "Damage", "value": "200 / 375 / 550" }]
+      "stats": [{ "type": "Damage", "value": "150 / 275 / 400" }]
     },
     "stats": {
       "offense": {
@@ -96,9 +96,9 @@
       }
     },
     "items": [
-      "spearofshojin",
+      "ludensecho",
       "hextechgunblade",
-      "infinityedge"
+      "seraphsembrace"
     ]
   },
   "Anivia": {
@@ -134,7 +134,7 @@
       }
     },
     "items": [
-      "spearofshojin",
+      "seraphsembrace",
       "morellonomicon",
       "rabadonsdeathcap"
     ]
@@ -159,7 +159,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 60,
+        "damage": 65,
         "attackSpeed": 0.7,
         "dps": 42,
         "range": 4
@@ -173,7 +173,7 @@
     "items": [
       "spearofshojin",
       "guinsoosrageblade",
-      "runaanshurricane"
+      "statikkshiv"
     ]
   },
   "AurelionSol": {
@@ -190,7 +190,7 @@
       "manaCost": 125,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "250 / 450 / 650" },
+        { "type": "Damage", "value": "250 / 500 / 750" },
         { "type": "Channel Duration", "value": "0.35s" }
       ]
     },
@@ -202,7 +202,7 @@
         "range": 3
       },
       "defense": {
-        "health": 600,
+        "health": 650,
         "armor": 20,
         "magicResist": 20
       }
@@ -224,7 +224,7 @@
       "name": "Rocket Grab",
       "description": "Blitzcrank pulls the furthest enemy to him.",
       "type": "Active",
-      "manaCost": 150,
+      "manaCost": 125,
       "manaStart": 0,
       "stats": [
         { "type": "Damage", "value": "100 / 350 / 800" },
@@ -264,7 +264,7 @@
       "manaCost": 125,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "200 / 300 / 400" },
+        { "type": "Damage", "value": "200 / 375 / 550" },
         { "type": "Bounces", "value": "4 / 4 / 6" }
       ]
     },
@@ -283,7 +283,7 @@
     },
     "items": [
       "spearofshojin",
-      "guinsoosrageblade",
+      "morellonomicon",
       "rabadonsdeathcap"
     ]
   },
@@ -314,13 +314,13 @@
       },
       "defense": {
         "health": 750,
-        "armor": 25,
+        "armor": 75,
         "magicResist": 20
       }
     },
     "items": [
       "thornmail",
-      "zekesherald",
+      "warmogsarmor",
       "dragonsclaw"
     ]
   },
@@ -339,7 +339,7 @@
       "manaStart": 50,
       "stats": [
         { "type": "Damage", "value": "200 / 400 / 600" },
-        { "type": "Knockup Duration", "value": "1.5s / 2s / 2.5s" },
+        { "type": "Knockup Duration", "value": "1.5s / 1.75s / 2s" },
         { "type": "AoE Radius", "value": "3 hexes" },
         { "type": "Delay", "value": "1.5s" }
       ]
@@ -347,7 +347,7 @@
     "stats": {
       "offense": {
         "damage": 70,
-        "attackSpeed": 0.55,
+        "attackSpeed": 0.6,
         "dps": 39,
         "range": 1
       },
@@ -358,9 +358,9 @@
       }
     },
     "items": [
-      "thornmail",
-      "warmogsarmor",
-      "dragonsclaw"
+      "morellonomicon",
+      "yuumi",
+      "rabadonsdeathcap"
     ]
   },
   "Darius": {
@@ -391,7 +391,7 @@
       },
       "defense": {
         "health": 600,
-        "armor": 25,
+        "armor": 40,
         "magicResist": 20
       }
     },
@@ -490,7 +490,7 @@
       "manaCost": 75,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "200 / 250 / 300" },
+        { "type": "Damage", "value": "200 / 300 / 400" },
         { "type": "Crit Multiplier", "value": "3x / 5x / 7x" },
         { "type": "Crit Threshold", "value": "65% HP" },
         { "type": "Blink Distance", "value": "3" }
@@ -498,7 +498,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 60,
+        "damage": 70,
         "attackSpeed": 0.6,
         "dps": 50,
         "range": 1
@@ -511,6 +511,7 @@
     },
     "items": [
       "rabadonsdeathcap",
+      "seraphsembrace",
       "morellonomicon"
     ]
   },
@@ -547,8 +548,8 @@
       }
     },
     "items": [
-      "frozenheart",
-      "zekesherald",
+      "titanichydra",
+      "spearofshojin",
       "phantomdancer"
     ]
   },
@@ -599,7 +600,7 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-        { "type": "Total Damage", "value": "450 / 585 / 720" },
+        { "type": "Total Damage", "value": "360 / 585 / 810" },
         { "type": "Damage per Tick", "value": "50 / 65 / 80" },
         { "type": "Total Ticks", "value": "9" },
         { "type": "Spin Duration", "value": "4s" }
@@ -607,14 +608,14 @@
     },
     "stats": {
       "offense": {
-        "damage": 55,
-        "attackSpeed": 0.55,
+        "damage": 50,
+        "attackSpeed": 0.6,
         "dps": 30,
         "range": 1
       },
       "defense": {
         "health": 600,
-        "armor": 35,
+        "armor": 40,
         "magicResist": 20
       }
     },
@@ -648,7 +649,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 45,
+        "damage": 50,
         "attackSpeed": 0.7,
         "dps": 31,
         "range": 2
@@ -683,7 +684,7 @@
     "stats": {
       "offense": {
         "damage": 55,
-        "attackSpeed": 0.5,
+        "attackSpeed": 0.55,
         "dps": 28,
         "range": 1
       },
@@ -696,7 +697,7 @@
     "items": [
       "redbuff",
       "titanichydra",
-      "warmogsarmor"
+      "infinityedge"
     ]
   },
   "Karthus": {
@@ -713,8 +714,8 @@
       "manaCost": 85,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "350 / 600 / 850" },
-        { "type": "Targets", "value": "4 / 7 / 10" }
+        { "type": "Damage", "value": "400 / 700 / 1000" },
+        { "type": "Targets", "value": "5 / 9 / 13" }
       ]
     },
     "stats": {
@@ -756,8 +757,8 @@
     },
     "stats": {
       "offense": {
-        "damage": 45,
-        "attackSpeed": 0.65,
+        "damage": 55,
+        "attackSpeed": 0.6,
         "dps": 29,
         "range": 1
       },
@@ -768,7 +769,7 @@
       }
     },
     "items": [
-      "guinsoosrageblade",
+      "warmogsarmor",
       "phantomdancer",
       "dragonsclaw"
     ]
@@ -790,7 +791,7 @@
         { "type": "Damage", "value": "600 / 900 / 1200" },
         { "type": "Channel Duration", "value": "2.5s" },
         { "type": "Grievous Wounds Duration", "value": "3s" },
-        { "type": "Targets", "value": "3 / 5 / 7" }
+        { "type": "Targets", "value": "4 / 6 / 8" }
       ]
     },
     "stats": {
@@ -839,8 +840,8 @@
         "range": 3
       },
       "defense": {
-        "health": 800,
-        "armor": 35,
+        "health": 750,
+        "armor": 40,
         "magicResist": 20
       }
     },
@@ -864,7 +865,7 @@
       "manaCost": 150,
       "manaStart": 50,
       "stats": [
-        { "type": "Damage", "value": "400 / 650 / 900" },
+        { "type": "Damage", "value": "225 / 450 / 675" },
         { "type": "Stun Duration", "value": "1.5s" }
       ]
     },
@@ -883,7 +884,7 @@
     },
     "items": [
       "morellonomicon",
-      "rabadonsdeathcap",
+      "youmuusghostblade",
       "seraphsembrace"
     ]
   },
@@ -901,13 +902,13 @@
       "manaCost": 50,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "150 / 250 / 350" },
+        { "type": "Damage", "value": "150 / 300 / 450" },
         { "type": "Isolation Damage", "value": "400 / 600 / 800" }
       ]
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "damage": 55,
         "attackSpeed": 0.6,
         "dps": 30,
         "range": 1
@@ -944,7 +945,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 55,
+        "damage": 60,
         "attackSpeed": 0.65,
         "dps": 36,
         "range": 3
@@ -957,7 +958,8 @@
     },
     "items": [
       "guinsoosrageblade",
-      "infinityedge"
+      "infinityedge",
+      "rapidfirecannon"
     ]
   },
   "Leona": {
@@ -988,7 +990,7 @@
       },
       "defense": {
         "health": 750,
-        "armor": 55,
+        "armor": 100,
         "magicResist": 20
       }
     },
@@ -1011,7 +1013,7 @@
       "manaCost": 150,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "225 / 300 / 375" },
+        { "type": "Damage", "value": "150 / 275 / 400" },
         { "type": "Enemy Stun Duration", "value": "1.5s" },
         { "type": "Untargetable Duration", "value": "2s" },
         { "type": "Slow Duration", "value": "3s" },
@@ -1068,7 +1070,7 @@
       }
     },
     "items": [
-      "infinityedge",
+      "ludensecho",
       "spearofshojin",
       "rapidfirecannon"
     ]
@@ -1102,7 +1104,7 @@
       },
       "defense": {
         "health": 500,
-        "armor": 25,
+        "armor": 20,
         "magicResist": 20
       }
     },
@@ -1144,7 +1146,7 @@
       }
     },
     "items": [
-      "guinsoosrageblade",
+      "seraphsembrace",
       "rabadonsdeathcap",
       "morellonomicon"
     ]
@@ -1177,7 +1179,7 @@
       },
       "defense": {
         "health": 550,
-        "armor": 35,
+        "armor": 40,
         "magicResist": 20
       }
     },
@@ -1201,7 +1203,7 @@
       "manaCost": 150,
       "manaStart": 50,
       "stats": [
-        { "type": "Damage", "value": "300 / 375 / 450" },
+        { "type": "Damage", "value": "200 / 325 / 450" },
         { "type": "Chain Duration", "value": "3s" },
         { "type": "Stun Duration", "value": "2s / 4s / 6s" }
       ]
@@ -1354,15 +1356,15 @@
       "manaCost": 150,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "150 / 250 / 350" },
-        { "type": "Heal Amount", "value": "300 / 400 / 500" },
+        { "type": "Damage", "value": "200 / 350 / 500" },
+        { "type": "Heal Amount", "value": "150 / 300 / 450" },
         { "type": "Burrow Duration", "value": "1s" },
         { "type": "Knockup Duration", "value": "1.75s" }
       ]
     },
     "stats": {
       "offense": {
-        "damage": 40,
+        "damage": 50,
         "attackSpeed": 0.65,
         "dps": 26,
         "range": 1
@@ -1394,15 +1396,15 @@
       "manaStart": 0,
       "stats": [
         { "type": "Damage Multiplier", "value": "2.1 / 3.2 / 4.3" },
-        { "type": "Attack Speed", "value": "300 / 400 / 500" },
+        { "type": "Attack Speed", "value": "40% / 70% / 100%" },
         { "type": "Crit", "value": "0.25" },
         { "type": "Buff Duration", "value": "6s" }
       ]
     },
     "stats": {
       "offense": {
-        "damage": 65,
-        "attackSpeed": 0.55,
+        "damage": 70,
+        "attackSpeed": 0.6,
         "dps": 30,
         "range": 1
       },
@@ -1433,7 +1435,7 @@
       "manaStart": 50,
       "stats": [
         { "type": "Damage", "value": "100 / 175 / 250" },
-        { "type": "Stun Duration", "value": "2s / 3.5s / 5s" }
+        { "type": "Stun Duration", "value": "2s / 4s / 6s" }
       ]
     },
     "stats": {
@@ -1445,7 +1447,7 @@
       },
       "defense": {
         "health": 850,
-        "armor": 35,
+        "armor": 40,
         "magicResist": 25
       }
     },
@@ -1473,7 +1475,7 @@
     "stats": {
       "offense": {
         "damage": 65,
-        "attackSpeed": 0.6,
+        "attackSpeed": 0.7,
         "dps": 39,
         "range": 1
       },
@@ -1516,7 +1518,7 @@
       },
       "defense": {
         "health": 650,
-        "armor": 20,
+        "armor": 30,
         "magicResist": 20
       }
     },
@@ -1616,7 +1618,7 @@
       "manaCost": 50,
       "manaStart": 0,
       "stats": [
-        { "type": "Red Card AoE Damage", "value": "100 / 150 / 200" },
+        { "type": "Red Card AoE Damage", "value": "150 / 250 / 350" },
         { "type": "Yellow Card Stun Duration", "value": "2s / 3s / 4s" },
         { "type": "Blue Card Mana Restore", "value": "20 / 35 / 50" }
       ]
@@ -1654,7 +1656,7 @@
       "manaCost": 75,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "400 / 600 / 800" },
+        { "type": "Damage", "value": "300 / 550 / 800" },
         { "type": "Cast Time", "value": "1.5s" }
       ]
     },
@@ -1694,8 +1696,8 @@
     },
     "stats": {
       "offense": {
-        "damage": 45,
-        "attackSpeed": 0.65,
+        "damage": 40,
+        "attackSpeed": 0.75,
         "dps": 27,
         "range": 3
       },
@@ -1734,7 +1736,7 @@
         "range": 3
       },
       "defense": {
-        "health": 450,
+        "health": 500,
         "armor": 20,
         "magicResist": 20
       }
@@ -1742,7 +1744,7 @@
     "items": [
       "spearofshojin",
       "rabadonsdeathcap",
-      "guinsoosrageblade"
+      "seraphsembrace"
     ]
   },
   "Volibear": {
@@ -1842,7 +1844,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 65,
+        "damage": 75,
         "attackSpeed": 1,
         "dps": 65,
         "range": 1
@@ -1879,7 +1881,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 60,
+        "damage": 65,
         "attackSpeed": 0.65,
         "dps": 39,
         "range": 1
