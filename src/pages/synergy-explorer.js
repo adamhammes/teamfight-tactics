@@ -22,7 +22,14 @@ const championListCss = css`
   flex-grow: 0;
 `;
 
-const synergyListCss = css``;
+const synergyListCss = css`
+  list-style-type: none;
+  padding: 0;
+
+  li + li {
+    margin-top: 2rem;
+  }
+`;
 
 const SynergyExplorer = ({ data }) => {
   const champions = data.champions.edges.map(edge => edge.node);
@@ -52,12 +59,13 @@ const SynergyExplorer = ({ data }) => {
       </div>
       <div>
         <h2>and see your synergies!</h2>
-        <ul>
+        <ul css={synergyListCss}>
           {achievedSynergies.map(({ synergy, bonus }) => (
             <li key={synergy.key}>
               <div>
                 <strong>{synergy.name}</strong>
               </div>
+              <p>{synergy.description}</p>
               <p>{bonus.effect}</p>
             </li>
           ))}
