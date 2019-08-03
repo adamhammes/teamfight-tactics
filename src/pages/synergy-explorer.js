@@ -8,6 +8,11 @@ import SynergyExplorerChampionView from "../components/synergy-explorer-champion
 
 const synergyExplorerCss = css`
   display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 700px) {
+    flex-direction: row;
+  }
 `;
 
 const championPickerCss = css`
@@ -31,10 +36,7 @@ const championListCss = css`
 
   li {
     flex: 1 0 50%;
-  }
-
-  li + li {
-    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 `;
 
