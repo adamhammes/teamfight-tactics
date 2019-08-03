@@ -35,7 +35,6 @@ const synergyListStyles = css`
 
 const SynergiesPage = ({ data }) => {
   const synergies = data.synergies.edges.map(edge => edge.node);
-  console.log(synergies);
 
   return (
     <ul css={synergyListStyles}>
