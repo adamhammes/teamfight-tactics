@@ -19,9 +19,13 @@ def slugify(s):
     return s
 
 
+def load_json(path):
+    with open(path) as f:
+        return json.load(f, object_pairs_hook=collections.OrderedDict)
+
+
 def champions():
-    with open("data/solomid/champions-backup.json") as f:
-        raw_champions = json.load(f, object_pairs_hook=collections.OrderedDict)
+    raw_champions = load_json("data/solomid/champions-backup.json")
 
     champions_list = list(raw_champions.values())
 
@@ -36,8 +40,7 @@ def champions():
 
 
 def items():
-    with open("data/solomid/items-backup.json") as f:
-        raw_items = json.load(f, object_pairs_hook=collections.OrderedDict)
+    raw_items = load_json("data/solomid/items-backup.json")
 
     items = list(raw_items.values())
 
