@@ -10,7 +10,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "yarn develop",
     "serve": "gatsby serve",
-    "test": "jest"
+    "test": "jest",
+    "watch-tests": "jest --watch"
   },
   "dependencies": {
     "@emotion/core": "^10.0.14",
