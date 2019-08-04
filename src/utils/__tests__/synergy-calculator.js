@@ -3,12 +3,13 @@ import synergies from "../../../data/cleaned-data/synergies.json";
 
 import synergyCalculator from "../synergy-calculator";
 
+const synergy = synergyKey => synergies.find(s => s.key == synergyKey);
 const champion = championSlug => champions.find(c => c.slug == championSlug);
 
 describe("Synergy Calculator", () => {
   it("works for the single ninja bonus", () => {
     const akali = champions.find(c => c.slug == "akali");
-    const ninjaSynergy = synergies.find(s => s.key == "ninja");
+    const ninjaSynergy = synergy("ninja");
 
     const akaliSynergies = synergyCalculator(synergies, [akali]);
 
@@ -32,7 +33,7 @@ describe("Synergy Calculator", () => {
   });
 
   it("gives ninja bonus to 4 ninjas", () => {
-    const ninjaSynergy = synergies.find(s => s.key == "ninja");
+    const ninjaSynergy = synergy("ninja");
     const calculatedSynergies = synergyCalculator(synergies, [
       champion("akali"),
       champion("zed"),
