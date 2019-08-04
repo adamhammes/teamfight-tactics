@@ -35,7 +35,7 @@ const championListCss = css`
   align-items: center;
 
   li {
-    flex: 1 0 50%;
+    flex: 0 0 50%;
     margin-bottom: 0.5rem;
   }
 `;
@@ -61,6 +61,11 @@ const SynergyExplorer = ({ data }) => {
     setSelectedChampions([...selectedChampions, champion]);
   };
 
+  const deleteChampion = deleteIndex =>
+    setSelectedChampions(
+      selectedChampions.filter((_, index) => deleteIndex != index)
+    );
+
   return (
     <div css={synergyExplorerCss}>
       <div css={championPickerCss}>
@@ -70,9 +75,12 @@ const SynergyExplorer = ({ data }) => {
           onSelectChampion={onSelectChampion}
         />
         <ul css={championListCss}>
-          {selectedChampions.map(champion => (
+          {selectedChampions.map((champion, index) => (
             <li key={champion.slug}>
-              <SynergyExplorerChampionView champion={champion} />
+              <SynergyExplorerChampionView
+                champion={champion}
+                deleteMe={() => deleteChampion(index)}
+              />
             </li>
           ))}
         </ul>
