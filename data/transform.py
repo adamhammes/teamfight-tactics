@@ -24,6 +24,11 @@ def load_json(path):
         return json.load(f, object_pairs_hook=collections.OrderedDict)
 
 
+def dump_json(data, path):
+    with open(path, "w") as f:
+        json.dump(data, f, indent=4, separators=(",", ": "))
+
+
 def champions():
     raw_champions = load_json("data/solomid/champions-backup.json")
 
@@ -35,8 +40,7 @@ def champions():
         ability = champion["ability"]
         del ability["stats"]
 
-    with open("data/cleaned-data/champion-list.json", "w") as f:
-        json.dump(champions_list, f, indent=4)
+    dump_json(champions_list, "data/cleaned-data/champion-list.json")
 
 
 def items():
@@ -73,8 +77,7 @@ def items():
         item["buildsInto"] = new_builds_into
         item["buildsFrom"] = new_builds_from
 
-    with open("data/cleaned-data/items.json", "w") as f:
-        json.dump(items, f, indent=4)
+    dump_json(items, "data/cleaned-data/items.json")
 
 
 def synergies():
@@ -94,8 +97,7 @@ def synergies():
             bonus_is_exclusive = synergy["key"] == "ninja" and bonus["needed"] == 1
             bonus["exclusive"] = bonus_is_exclusive
 
-    with open("data/cleaned-data/synergies.json", "w") as f:
-        json.dump(synergies, f, indent=4)
+    dump_json(synergies, "data/cleaned-data/synergies.json")
 
 
 def main():

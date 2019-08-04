@@ -1,409 +1,409 @@
 [
     {
-        "key": "demon", 
-        "name": "Demon", 
-        "description": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Aatrox_Splash_Centered_0.jpg", 
+        "key": "demon",
+        "name": "Demon",
+        "description": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Aatrox_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 2, 
-                "effect": "20% chance on hit to Mana Burn", 
+                "needed": 2,
+                "effect": "20% chance on hit to Mana Burn",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 4, 
-                "effect": "35% chance on hit to Mana Burn", 
+                "needed": 4,
+                "effect": "35% chance on hit to Mana Burn",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 6, 
-                "effect": "60% chance on hit to Mana Burn", 
+                "needed": 6,
+                "effect": "60% chance on hit to Mana Burn",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "dragon", 
-        "name": "Dragon", 
-        "description": null, 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/AurelionSol_Splash_Centered_0.jpg", 
+        "key": "dragon",
+        "name": "Dragon",
+        "description": null,
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/AurelionSol_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 2, 
-                "effect": "Dragons are immune to 83% Magic damage", 
+                "needed": 2,
+                "effect": "Dragons are immune to 83% Magic damage",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "exile", 
-        "name": "Exile", 
-        "description": null, 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Yasuo_Splash_Centered_0.jpg", 
+        "key": "exile",
+        "name": "Exile",
+        "description": null,
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Yasuo_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 1, 
-                "effect": "If an Exile has no adjacent allies at the start of combat, they gain a shield equal to a 100% max health.", 
+                "needed": 1,
+                "effect": "If an Exile has no adjacent allies at the start of combat, they gain a shield equal to a 100% max health.",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "glacial", 
-        "name": "Glacial", 
-        "description": "On hit, Glacials have a chance to stun for 2s.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Anivia_Splash_Centered_0.jpg", 
+        "key": "glacial",
+        "name": "Glacial",
+        "description": "On hit, Glacials have a chance to stun for 2s.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Anivia_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 2, 
-                "effect": "20% chance", 
+                "needed": 2,
+                "effect": "20% chance",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 4, 
-                "effect": "30% chance", 
+                "needed": 4,
+                "effect": "30% chance",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 6, 
-                "effect": "45% chance", 
+                "needed": 6,
+                "effect": "45% chance",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "imperial", 
-        "name": "Imperial", 
-        "description": "Imperials deal Double Damage.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Swain_Splash_Centered_0.jpg", 
+        "key": "imperial",
+        "name": "Imperial",
+        "description": "Imperials deal Double Damage.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Swain_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 2, 
-                "effect": "1 random Imperial", 
+                "needed": 2,
+                "effect": "1 random Imperial",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 4, 
-                "effect": "All Imperials", 
+                "needed": 4,
+                "effect": "All Imperials",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "noble", 
-        "name": "Noble", 
-        "description": "Nobles grant +60 Armor and Magic Resist and heal for 35 on hit", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Garen_Splash_Centered_0.jpg", 
+        "key": "noble",
+        "name": "Noble",
+        "description": "Nobles grant +60 Armor and Magic Resist and heal for 35 on hit",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Garen_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 3, 
-                "effect": "1 random ally", 
+                "needed": 3,
+                "effect": "1 random ally",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 6, 
-                "effect": "All allies", 
+                "needed": 6,
+                "effect": "All allies",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "ninja", 
-        "name": "Ninja", 
-        "description": "Ninjas gain a percentage of Attack Damage.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Akali_Splash_Centered_0.jpg", 
+        "key": "ninja",
+        "name": "Ninja",
+        "description": "Ninjas gain a percentage of Attack Damage.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Akali_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 1, 
-                "effect": "1 Ninja only: Ninja gains +40% Attack Damage & Ability Power", 
+                "needed": 1,
+                "effect": "1 Ninja only: Ninja gains +40% Attack Damage & Ability Power",
                 "exclusive": true
-            }, 
+            },
             {
-                "needed": 4, 
-                "effect": "4 Ninjas: All Ninjas gain +60% Attack Damage & Ability Power", 
+                "needed": 4,
+                "effect": "4 Ninjas: All Ninjas gain +60% Attack Damage & Ability Power",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "pirate", 
-        "name": "Pirate", 
-        "description": null, 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Gangplank_Splash_Centered_0.jpg", 
+        "key": "pirate",
+        "name": "Pirate",
+        "description": null,
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Gangplank_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 3, 
-                "effect": "Earn up to 4 additional gold after combat against another player (avg 1.6g per chest).", 
+                "needed": 3,
+                "effect": "Earn up to 4 additional gold after combat against another player (avg 1.6g per chest).",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "phantom", 
-        "name": "Phantom", 
-        "description": null, 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Mordekaiser_Splash_Centered_0.jpg", 
+        "key": "phantom",
+        "name": "Phantom",
+        "description": null,
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Mordekaiser_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 2, 
-                "effect": "Curse a random enemy at the start of combat, setting their HP to 100.", 
+                "needed": 2,
+                "effect": "Curse a random enemy at the start of combat, setting their HP to 100.",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "robot", 
-        "name": "Robot", 
-        "description": null, 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Blitzcrank_Splash_Centered_0.jpg", 
+        "key": "robot",
+        "name": "Robot",
+        "description": null,
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Blitzcrank_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 1, 
-                "effect": "Robots start combat at full mana", 
+                "needed": 1,
+                "effect": "Robots start combat at full mana",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "void", 
-        "name": "Void", 
-        "description": null, 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/RekSai_Splash_Centered_0.jpg", 
+        "key": "void",
+        "name": "Void",
+        "description": null,
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/RekSai_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 3, 
-                "effect": "Void units deal True Damage.", 
+                "needed": 3,
+                "effect": "Void units deal True Damage.",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "wild", 
-        "name": "Wild", 
-        "description": "Attacks generate stacks of Fury (up to 5). Each stack of Fury grants 10% Attack Speed.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Rengar_Splash_Centered_0.jpg", 
+        "key": "wild",
+        "name": "Wild",
+        "description": "Attacks generate stacks of Fury (up to 5). Each stack of Fury grants 10% Attack Speed.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Rengar_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 2, 
-                "effect": "Wild allies only", 
+                "needed": 2,
+                "effect": "Wild allies only",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 4, 
-                "effect": "All allies", 
+                "needed": 4,
+                "effect": "All allies",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "yordle", 
-        "name": "Yordle", 
-        "description": "Attacks against ally Yordles have a chance to miss.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Poppy_Splash_Centered_0.jpg", 
+        "key": "yordle",
+        "name": "Yordle",
+        "description": "Attacks against ally Yordles have a chance to miss.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Poppy_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 3, 
-                "effect": "30% chance to miss.", 
+                "needed": 3,
+                "effect": "30% chance to miss.",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 6, 
-                "effect": "55% chance to miss.", 
+                "needed": 6,
+                "effect": "55% chance to miss.",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "origin"
-    }, 
+    },
     {
-        "key": "assassin", 
-        "name": "Assassin", 
-        "description": "Assassins leap to the farthest enemy at the start of combat and deal additional Critical Strike Damage.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Katarina_Splash_Centered_0.jpg", 
+        "key": "assassin",
+        "name": "Assassin",
+        "description": "Assassins leap to the farthest enemy at the start of combat and deal additional Critical Strike Damage.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Katarina_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 3, 
-                "effect": "+125% critical strike damage.", 
+                "needed": 3,
+                "effect": "+125% critical strike damage.",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 6, 
-                "effect": "+350% critical strike damage.", 
+                "needed": 6,
+                "effect": "+350% critical strike damage.",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "class"
-    }, 
+    },
     {
-        "key": "blademaster", 
-        "name": "Blademaster", 
-        "description": "Blademasters have a 35% chance to strike additional times each attack.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Fiora_Splash_Centered_0.jpg", 
+        "key": "blademaster",
+        "name": "Blademaster",
+        "description": "Blademasters have a 35% chance to strike additional times each attack.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Fiora_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 3, 
-                "effect": "One additional strike", 
+                "needed": 3,
+                "effect": "One additional strike",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 6, 
-                "effect": "Two additional strikes", 
+                "needed": 6,
+                "effect": "Two additional strikes",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "class"
-    }, 
+    },
     {
-        "key": "brawler", 
-        "name": "Brawler", 
-        "description": "Brawlers receive bonus maximum health.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Warwick_Splash_Centered_0.jpg", 
+        "key": "brawler",
+        "name": "Brawler",
+        "description": "Brawlers receive bonus maximum health.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Warwick_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 2, 
-                "effect": "+300 Bonus health.", 
+                "needed": 2,
+                "effect": "+300 Bonus health.",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 4, 
-                "effect": "+700 Bonus health.", 
+                "needed": 4,
+                "effect": "+700 Bonus health.",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "class"
-    }, 
+    },
     {
-        "key": "elementalist", 
-        "name": "Elementalist", 
-        "description": "Elementalists gain double mana from attacks.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Brand_Splash_Centered_0.jpg", 
+        "key": "elementalist",
+        "name": "Elementalist",
+        "description": "Elementalists gain double mana from attacks.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Brand_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 3, 
-                "effect": "At the start of combat, summon an Elemental. Elemental has 2200 health and 100 Attack Damage.", 
+                "needed": 3,
+                "effect": "At the start of combat, summon an Elemental. Elemental has 2200 health and 100 Attack Damage.",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "class"
-    }, 
+    },
     {
-        "key": "guardian", 
-        "name": "Guardian", 
-        "description": null, 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Braum_Splash_Centered_0.jpg", 
+        "key": "guardian",
+        "name": "Guardian",
+        "description": null,
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Braum_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 2, 
-                "effect": "At the start of combat, all adjacent allies receive +50 armor. Stacks any number of times.", 
+                "needed": 2,
+                "effect": "At the start of combat, all adjacent allies receive +50 armor. Stacks any number of times.",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "class"
-    }, 
+    },
     {
-        "key": "gunslinger", 
-        "name": "Gunslinger", 
-        "description": "After attacking, Gunslingers have a 50% chance to fire additional attacks.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/MissFortune_Splash_Centered_0.jpg", 
+        "key": "gunslinger",
+        "name": "Gunslinger",
+        "description": "After attacking, Gunslingers have a 50% chance to fire additional attacks.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/MissFortune_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 2, 
-                "effect": "Attack another random enemy.", 
+                "needed": 2,
+                "effect": "Attack another random enemy.",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 4, 
-                "effect": "Attack 2 additional random enemies in range.", 
+                "needed": 4,
+                "effect": "Attack 2 additional random enemies in range.",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "class"
-    }, 
+    },
     {
-        "key": "knight", 
-        "name": "Knight", 
-        "description": "Your team ignores damage from all sources.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Kayle_Splash_Centered_0.jpg", 
+        "key": "knight",
+        "name": "Knight",
+        "description": "Your team ignores damage from all sources.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Kayle_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 2, 
-                "effect": "15 damage.", 
+                "needed": 2,
+                "effect": "15 damage.",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 4, 
-                "effect": "30 damage.", 
+                "needed": 4,
+                "effect": "30 damage.",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 6, 
-                "effect": "55 damage.", 
+                "needed": 6,
+                "effect": "55 damage.",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "class"
-    }, 
+    },
     {
-        "key": "ranger", 
-        "name": "Ranger", 
-        "description": "Rangers have a chance to double their attack speed for the next 3s.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Kindred_Splash_Centered_0.jpg", 
+        "key": "ranger",
+        "name": "Ranger",
+        "description": "Rangers have a chance to double their attack speed for the next 3s.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Kindred_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 2, 
-                "effect": "25% chance.", 
+                "needed": 2,
+                "effect": "25% chance.",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 4, 
-                "effect": "65% chance.", 
+                "needed": 4,
+                "effect": "65% chance.",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "class"
-    }, 
+    },
     {
-        "key": "shapeshifter", 
-        "name": "Shapeshifter", 
-        "description": "Shapeshifters gain bonus maximum Health when they transform.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Elise_Splash_Centered_0.jpg", 
+        "key": "shapeshifter",
+        "name": "Shapeshifter",
+        "description": "Shapeshifters gain bonus maximum Health when they transform.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Elise_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 3, 
-                "effect": "+60% bonus max health", 
+                "needed": 3,
+                "effect": "+60% bonus max health",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "class"
-    }, 
+    },
     {
-        "key": "sorcerer", 
-        "name": "Sorcerer", 
-        "description": "Sorcerers gain double mana from attacking and allies have increased spell damage.", 
-        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Karthus_Splash_Centered_0.jpg", 
+        "key": "sorcerer",
+        "name": "Sorcerer",
+        "description": "Sorcerers gain double mana from attacking and allies have increased spell damage.",
+        "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Karthus_Splash_Centered_0.jpg",
         "bonuses": [
             {
-                "needed": 3, 
-                "effect": "+45% Spell Damage", 
+                "needed": 3,
+                "effect": "+45% Spell Damage",
                 "exclusive": false
-            }, 
+            },
             {
-                "needed": 6, 
-                "effect": "+100% Spell Damage", 
+                "needed": 6,
+                "effect": "+100% Spell Damage",
                 "exclusive": false
             }
-        ], 
+        ],
         "type": "class"
     }
 ]
