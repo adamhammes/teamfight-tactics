@@ -63,7 +63,7 @@ const SynergyExplorer = ({ data }) => {
 
   const deleteChampion = deleteIndex =>
     setSelectedChampions(
-      selectedChampions.filter((_, index) => deleteIndex != index)
+      selectedChampions.filter((_, index) => deleteIndex !== index)
     );
 
   return (
