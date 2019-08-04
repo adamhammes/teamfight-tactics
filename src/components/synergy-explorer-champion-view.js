@@ -3,7 +3,7 @@ import { css } from "@emotion/core";
 import classNames from "classnames";
 
 import { Image } from "../utils/index";
-import { CloseIcon } from "../components/icons";
+import { IconTrash } from "../components/icons";
 
 const containerStyles = css`
   position: relative;
@@ -68,7 +68,7 @@ const SynergyExplorerChampionView = ({ champion, deleteMe }) => {
           className={classNames({ visible: showingOptions })}
           css={optionsContainerStyles}
         >
-          <CloseIcon onClick={deleteMe} size={30} />
+          <IconTrash onClick={deleteMe} size={30} />
         </div>
         <div
           className={classNames({ visible: !showingOptions })}
