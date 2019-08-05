@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { css } from "@emotion/core";
 import classNames from "classnames";
 
@@ -55,23 +55,23 @@ const imageContainerStyles = css`
   overflow: hidden;
 `;
 
-const SynergyExplorerChampionView = ({ champion, deleteMe }) => {
-  const [showingOptions, setShowingOptions] = useState(false);
-
+const SynergyExplorerChampionView = ({
+  champion,
+  modifyingChampion,
+  onClick,
+  deleteMe
+}) => {
   return (
     <>
-      <div
-        css={containerStyles}
-        onClick={() => setShowingOptions(!showingOptions)}
-      >
+      <div css={containerStyles} onClick={onClick}>
         <div
-          className={classNames({ visible: showingOptions })}
+          className={classNames({ visible: modifyingChampion })}
           css={optionsContainerStyles}
         >
           <IconTrash onClick={deleteMe} size={30} />
         </div>
         <div
-          className={classNames({ visible: !showingOptions })}
+          className={classNames({ visible: !modifyingChampion })}
           css={contentStyles}
         >
           <div css={imageContainerStyles}>
