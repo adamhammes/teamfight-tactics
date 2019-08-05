@@ -1,7 +1,7 @@
-import champions from "../../../data/cleaned-data/champion-list.json";
-import synergies from "../../../data/cleaned-data/synergies.json";
+import champions from "../data/cleaned-data/champion-list.json";
+import synergies from "../data/cleaned-data/synergies.json";
 
-import synergyCalculator from "../synergy-calculator";
+import synergyCalculator from "../src/utils/synergy-calculator";
 
 const synergy = synergyKey => synergies.find(s => s.key == synergyKey);
 const champion = championSlug => champions.find(c => c.slug == championSlug);
