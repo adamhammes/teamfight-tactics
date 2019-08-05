@@ -1,8 +1,40 @@
-import React, { useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import SynergyExplorerChampionView from "./synergy-explorer-champion-view";
+import { css } from "@emotion/core";
+
+const championListCss = css`
+  padding: 0;
+  margin-right: 0;
+  flex-grow: 0;
+
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  li {
+    flex: 0 0 50%;
+    margin-bottom: 0.5rem;
+  }
+`;
 
 const SynergyExplorerChampions = ({ champions, deleteChampion }) => {
   const [indexOfModifiedChampion, setIndexofModifiedChampion] = useState(null);
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const listener = document.addEventListener("click", event => {
+      if (
+        containerRef.current !== null &&
+        !containerRef.current.contains(event.target)
+      ) {
+        setIndexofModifiedChampion(null);
+      }
+    });
+
+    return () => document.removeEventListener("click", listener);
+  });
 
   const onChampionClick = index => {
     if (indexOfModifiedChampion === null) {
@@ -21,7 +53,7 @@ const SynergyExplorerChampions = ({ champions, deleteChampion }) => {
   };
 
   return (
-    <>
+    <ul ref={containerRef} css={championListCss}>
       {champions.map((champion, index) => (
         <li key={champion.slug}>
           <SynergyExplorerChampionView
@@ -32,7 +64,7 @@ const SynergyExplorerChampions = ({ champions, deleteChampion }) => {
           />
         </li>
       ))}
-    </>
+    </ul>
   );
 };
 

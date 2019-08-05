@@ -23,23 +23,6 @@ const championPickerCss = css`
   flex-direction: column;
 `;
 
-const championListCss = css`
-  padding: 0;
-  margin-right: 0;
-  flex-grow: 0;
-
-  list-style-type: none;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-
-  li {
-    flex: 0 0 50%;
-    margin-bottom: 0.5rem;
-  }
-`;
-
 const synergyListCss = css`
   list-style-type: none;
   padding: 0;
@@ -74,12 +57,10 @@ const SynergyExplorer = ({ data }) => {
           champions={champions}
           onSelectChampion={onSelectChampion}
         />
-        <ul css={championListCss}>
-          <SynergyExplorerChampions
-            champions={selectedChampions}
-            deleteChampion={deleteChampion}
-          />
-        </ul>
+        <SynergyExplorerChampions
+          champions={selectedChampions}
+          deleteChampion={deleteChampion}
+        />
       </div>
       <div>
         <h2>and see your synergies!</h2>

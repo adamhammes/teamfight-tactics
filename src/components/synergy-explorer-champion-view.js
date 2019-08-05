@@ -18,7 +18,6 @@ const optionsContainerStyles = css`
   color: red;
 
   position: absolute;
-  z-index: 1;
   opacity: 0;
   transition: opacity 0.3s;
   pointer-events: none;
