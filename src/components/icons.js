@@ -1,5 +1,19 @@
 import React from "react";
 
+export const IconPlusCircle = ({ size = 24, ...props }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    width={size}
+    height={size}
+    {...props}
+  >
+    <path
+      class="heroicon-ui"
+      d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm1-9h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0v-2H9a1 1 0 0 1 0-2h2V9a1 1 0 0 1 2 0v2z"
+    />
+  </svg>
+);
 export const IconXCircle = ({ size = 24, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
