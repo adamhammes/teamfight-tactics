@@ -33,11 +33,11 @@ const useIsMounted = () => {
   return isMounted;
 };
 
-function renderImage(file) {
-  return <Img fluid={file.node.childImageSharp.fluid} />;
+function renderImage(file, props) {
+  return <Img fluid={file.node.childImageSharp.fluid} {...props} />;
 }
 
-const Image = function(props) {
+const Image = function({ src, ...props }) {
   return (
     <StaticQuery
       query={graphql`
@@ -61,13 +61,13 @@ const Image = function(props) {
       `}
       render={({ images }) => {
         const imageData = images.edges.find(
-          image => image.node.relativePath === props.src
+          image => image.node.relativePath === src
         );
         if (imageData) {
-          return renderImage(imageData);
+          return renderImage(imageData, props);
         }
 
-        console.error(`Could not find image with path ${props.src}`);
+        console.error(`Could not find image with path ${src}`);
         console.log("Available images:");
         console.log(images.edges.map(edge => edge.node.relativePath));
         return null;

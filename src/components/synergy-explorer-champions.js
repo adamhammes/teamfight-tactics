@@ -10,11 +10,10 @@ const championListCss = css`
   list-style-type: none;
 
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
 
   li {
-    flex: 0 0 50%;
     margin-bottom: 0.5rem;
   }
 `;

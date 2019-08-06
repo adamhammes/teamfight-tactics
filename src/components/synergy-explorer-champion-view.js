@@ -7,6 +7,7 @@ import { IconTrash } from "../components/icons";
 
 const containerStyles = css`
   position: relative;
+  width: 10rem;
 `;
 
 const optionsContainerStyles = css`
@@ -36,13 +37,8 @@ const optionsContainerStyles = css`
 const contentStyles = css`
   display: flex;
   align-items: center;
-  opacity: 0.1;
   transition: opacity 0.3s;
   cursor: pointer;
-
-  &.visible {
-    opacity: 1;
-  }
 `;
 
 const imageContainerStyles = css`
@@ -52,6 +48,31 @@ const imageContainerStyles = css`
 
   border-radius: 50%;
   overflow: hidden;
+
+  position: relative;
+
+  > svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+
+  > .champion-image {
+    opacity: 0.1;
+  }
+
+  > * {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s;
+
+    &.visible {
+      opacity: 1;
+      pointer-events: initial;
+    }
+  }
 `;
 
 const SynergyExplorerChampionView = ({
@@ -63,21 +84,18 @@ const SynergyExplorerChampionView = ({
   return (
     <>
       <div css={containerStyles} onClick={onClick}>
-        <div
-          className={classNames({ visible: modifyingChampion })}
-          css={optionsContainerStyles}
-        >
-          <IconTrash onClick={deleteMe} size={30} />
-        </div>
-        <div
-          className={classNames({ visible: !modifyingChampion })}
-          css={contentStyles}
-        >
+        <div css={contentStyles}>
           <div css={imageContainerStyles}>
+            <IconTrash
+              onClick={deleteMe}
+              size={30}
+              className={classNames({ visible: modifyingChampion })}
+            />
             <Image
               src={`champion-icons/${champion.slug}.jpg`}
-              height="100"
-              width="100"
+              className={classNames("champion-image", {
+                visible: !modifyingChampion
+              })}
             />
           </div>
           {champion.name}
