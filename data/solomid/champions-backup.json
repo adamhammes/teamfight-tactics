@@ -324,6 +324,39 @@
       "dragonsclaw"
     ]
   },
+  "Camille": {
+    "id": "164",
+    "key": "Camille",
+    "name": "Camille",
+    "origin": ["Hextech"],
+    "class": ["Blademaster"],
+    "cost": 1,
+    "ability": {
+      "name": "The Hextech Ultimatum",
+      "description": "Camille singles out an enemy, dealing magic damage and rooting them for few seconds. Camille's allies in range will prioritize attacking that enemy.",
+      "type": "Active",
+      "manaCost": 150,
+      "manaStart": 0,
+      "stats": [
+        { "type": "Damage", "value": "75 / 200 / 325" },
+        { "type": "Root Duration", "value": "4s / 5s / 6s" }
+      ]
+    },
+    "stats": {
+      "offense": {
+        "damage": 50,
+        "attackSpeed": 0.6,
+        "dps": 30,
+        "range": 1
+      },
+      "defense": {
+        "health": 550,
+        "armor": 25,
+        "magicResist": 20
+      }
+    },
+    "items": []
+  },
   "Chogath": {
     "id": "31",
     "key": "Chogath",
@@ -454,12 +487,13 @@
       "stats": [
         { "type": "Life Steal", "value": "60% / 90% / 120%" },
         { "type": "Number of Spiderlings", "value": "1 / 2 / 4" },
+        { "type": "Spiderling Attack Damage", "value": "50" },
         { "type": "Spiderling Health", "value": "500" }
       ]
     },
     "stats": {
       "offense": {
-        "damage": 40,
+        "damage": 45,
         "attackSpeed": 0.6,
         "dps": 40,
         "range": 2
@@ -700,6 +734,72 @@
       "infinityedge"
     ]
   },
+  "Jayce": {
+    "id": "126",
+    "key": "Jayce",
+    "name": "Jayce",
+    "origin": ["Hextech"],
+    "class": ["Shapeshifter"],
+    "cost": 2,
+    "ability": {
+      "name": "Mercury Cannon",
+      "description": "Jayce knocks away an emeny in melee range, dealing damage and stunning them for few seconds. He then transforms his hammer into a cannon, increasing his attack range by 3 hexes and gaining max attack speed for few attacks.",
+      "type": "Active",
+      "manaCost": 50,
+      "manaStart": 0,
+      "stats": [
+        { "type": "Damage", "value": "750 / 225 / 300" },
+        { "type": "Stun Duration", "value": "2.5s / 4.25s / 6s" },
+        { "type": "Attacks", "value": "3 / 5 / 7" }
+      ]
+    },
+    "stats": {
+      "offense": {
+        "damage": 55,
+        "attackSpeed": 0.7,
+        "dps": 39,
+        "range": 1
+      },
+      "defense": {
+        "health": 600,
+        "armor": 30,
+        "magicResist": 20
+      }
+    },
+    "items": []
+  },
+  "Jinx": {
+    "id": "222",
+    "key": "Jinx",
+    "name": "Jinx",
+    "origin": ["Hextech"],
+    "class": ["Gunslinger"],
+    "cost": 4,
+    "ability": {
+      "name": "Get Excited!",
+      "description": "Jinx gets excited as she participates in kills. On her first takedown, she gains 75% attack speed. On her second, she swaps to her rocket launcher causing her attacks to deal bonus area damage.",
+      "type": "Passive",
+      "manaCost": null,
+      "manaStart": null,
+      "stats": [
+        { "type": "Damage", "value": "100 / 225 / 350" }
+      ]
+    },
+    "stats": {
+      "offense": {
+        "damage": 75,
+        "attackSpeed": 0.65,
+        "dps": 49,
+        "range": 3
+      },
+      "defense": {
+        "health": 550,
+        "armor": 20,
+        "magicResist": 20
+      }
+    },
+    "items": []
+  },
   "Karthus": {
     "id": "30",
     "key": "Karthus",
@@ -714,8 +814,8 @@
       "manaCost": 85,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "400 / 700 / 1000" },
-        { "type": "Targets", "value": "5 / 9 / 13" }
+        { "type": "Damage", "value": "350 / 600 / 850" },
+        { "type": "Targets", "value": "5 / 7 / 9" }
       ]
     },
     "stats": {
@@ -824,10 +924,9 @@
       "name": "Divine Judgement",
       "description": "Kayle shields an ally, making them immune to damage.",
       "type": "Active",
-      "manaCost": 100,
+      "manaCost": 125,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "500 / 800 / 1100" },
         { "type": "Shield Duration", "value": "2s / 3s / 4s" },
         { "type": "Extra Targets", "value": "0 / 1 / 2" }
       ]
@@ -1319,7 +1418,7 @@
       "manaStart": 75,
       "stats": [
         { "type": "Damage", "value": "150 / 200 / 250" },
-        { "type": "Stun Duration", "value": "2s / 2.5s / 3s" },
+        { "type": "Stun Duration", "value": "1.5s / 2s / 2.5s" },
         { "type": "Stun Delay", "value": "1" }
       ]
     },
@@ -1396,8 +1495,8 @@
       "manaStart": 0,
       "stats": [
         { "type": "Damage Multiplier", "value": "2.1 / 3.2 / 4.3" },
-        { "type": "Attack Speed", "value": "40% / 70% / 100%" },
-        { "type": "Crit", "value": "0.25" },
+        { "type": "Attack Speed", "value": "30% / 50% / 70%" },
+        { "type": "Crit Chance", "value": "25%" },
         { "type": "Buff Duration", "value": "6s" }
       ]
     },
@@ -1726,7 +1825,7 @@
       "type": "Active",
       "manaCost": 75,
       "manaStart": 0,
-      "stats": [{ "type": "Damage", "value": "300 / 500 / 700" }]
+      "stats": [{ "type": "Damage", "value": "300 / 550 / 800" }]
     },
     "stats": {
       "offense": {
@@ -1746,6 +1845,39 @@
       "rabadonsdeathcap",
       "seraphsembrace"
     ]
+  },
+  "Vi": {
+    "id": "254",
+    "key": "Vi",
+    "name": "Vi",
+    "origin": ["Hextech"],
+    "class": ["Brawler"],
+    "cost": 3,
+    "ability": {
+      "name": "Assault and Battery",
+      "description": "Vi charges down the furthest enemy, knocking aside anyone in her way. When she reaches her target she deals magic damage and knocks them up. Other enemies knocked aside take the same damage.",
+      "type": "Active",
+      "manaCost": 125,
+      "manaStart": 0,
+      "stats": [
+        { "type": "Damage", "value": "250 / 400 / 650" },
+        { "type": "Stun Duration", "value": "2s / 2.5s / 3s" }
+      ]
+    },
+    "stats": {
+      "offense": {
+        "damage": 55,
+        "attackSpeed": 0.65,
+        "dps": 36,
+        "range": 1
+      },
+      "defense": {
+        "health": 600,
+        "armor": 25,
+        "magicResist": 20
+      }
+    },
+    "items": []
   },
   "Volibear": {
     "id": "106",

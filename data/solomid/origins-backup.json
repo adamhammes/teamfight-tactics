@@ -63,6 +63,22 @@
       }
     ]
   },
+  "hextech": {
+    "key": "hextech",
+    "name": "Hextech",
+    "description": "When combat begins, the ally team launches and detonates a pulse bomb, temporarily disabling nearby enemy items for 8 seconds",
+    "accentChampionImage": null,
+    "bonuses": [
+      {
+        "needed": 2,
+        "effect": "Within 1 hex"
+      },
+      {
+        "needed": 4,
+        "effect": "Within 2 hexes"
+      }
+    ]
+  },
   "imperial": {
     "key": "imperial",
     "name": "Imperial",
