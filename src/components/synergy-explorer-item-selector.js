@@ -41,6 +41,10 @@ const TranslatedContainer = styled.div(
     transition: opacity 0.3s, transform 0.3s;
     opacity: ${open ? 1 : 0};
     transform: translate(calc(-50% + ${x}px), calc(-50% + ${y}px));
+
+    &:hover {
+      transform: translate(calc(-50% + ${x}px), calc(-50% + ${y}px)) scale(1.1);
+    }
   `
 );
 
