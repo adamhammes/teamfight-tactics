@@ -3,15 +3,8 @@ import { css } from "@emotion/core";
 import classNames from "classnames";
 
 import { Image } from "../utils/index";
-import { IconTrash, IconPlusCircle } from "../components/icons";
-
-const items = [
-  "knightsvow",
-  "frozenmallet",
-  "bladeoftheruinedking",
-  "youmuusghostblade",
-  "yuumi"
-];
+import { IconTrash } from "./icons";
+import SynergyExplorerItemSelector from "./synergy-explorer-item-selector";
 
 const containerStyles = css`
   position: relative;
@@ -90,7 +83,7 @@ const SynergyExplorerChampionView = ({
           {champion.name}
         </span>
         <div css={addItemsContainerStyles}>
-          <IconPlusCircle size={30} />
+          <SynergyExplorerItemSelector />
         </div>
       </div>
     </>
