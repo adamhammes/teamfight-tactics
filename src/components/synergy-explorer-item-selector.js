@@ -28,7 +28,7 @@ const Container = styled.div(
 );
 
 const TranslatedContainer = styled.div(
-  ({ x, y, open }) => css`
+  ({ x, y, isOpen }) => css`
     position: absolute;
     top: 50%;
     left: 50%;
@@ -36,10 +36,10 @@ const TranslatedContainer = styled.div(
     height: 2rem;
     border-radius: 50%;
     overflow: hidden;
-    pointer-events: ${open ? "initial" : "none"};
+    pointer-events: ${isOpen ? "initial" : "none"};
     cursor: pointer;
     transition: opacity 0.3s, transform 0.3s;
-    opacity: ${open ? 1 : 0};
+    opacity: ${isOpen ? 1 : 0};
     transform: translate(calc(-50% + ${x}px), calc(-50% + ${y}px));
 
     &:hover {
@@ -56,34 +56,43 @@ const itemPosition = (angle, radius, angleOffset = -90) => {
   };
 };
 
-const Item = ({ itemKey, angle, radius, open }) => {
+const Item = ({ itemKey, angle, radius, isOpen }) => {
   console.log(angle);
-  const position = open ? itemPosition(angle, radius) : { x: 0, y: 0 };
+  const position = isOpen ? itemPosition(angle, radius) : { x: 0, y: 0 };
 
   return (
-    <TranslatedContainer {...position} open={open}>
+    <TranslatedContainer {...position} isOpen={isOpen}>
       <Image src={`item-icons/${itemKey}.jpg`} />
     </TranslatedContainer>
   );
 };
 
+const calculateAngles = numItems => {
+  const angles = [];
+  for (let i = 0; i < numItems; i++) {
+    angles.push((i * 360) / numItems);
+  }
+
+  return angles;
+};
+
 const SynergyExplorerItemSelector = () => {
-  const [open, setOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const radius = 40;
-  const angles = [0, 72, 144, 216, 288];
+  const angles = calculateAngles(items.length);
 
   return (
-    <Container isOpen={open}>
+    <Container isOpen={isOpen}>
       {items.map((item, index) => (
         <Item
           key={item}
           itemKey={item}
           angle={angles[index]}
           radius={radius}
-          open={open}
+          isOpen={isOpen}
         />
       ))}
-      <IconXCircle size={30} onClick={() => setOpen(!open)} />
+      <IconXCircle size={30} onClick={() => setIsOpen(!isOpen)} />
     </Container>
   );
 };
