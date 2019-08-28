@@ -2,20 +2,20 @@
   "demon": {
     "key": "demon",
     "name": "Demon",
-    "description": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage.",
+    "description": "Demons basic attacks have a 40% chance to burn 20 mana from their target and return mana to the attacker.",
     "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Aatrox_Splash_Centered_0.jpg",
     "bonuses": [
       {
         "needed": 2,
-        "effect": "20% chance on hit to Mana Burn"
+        "effect": "Return 15 mana back to attacker"
       },
       {
         "needed": 4,
-        "effect": "35% chance on hit to Mana Burn"
+        "effect": "Return 30 mana back to attacker"
       },
       {
         "needed": 6,
-        "effect": "60% chance on hit to Mana Burn"
+        "effect": "Return 45 mana back to attacker"
       }
     ]
   },
@@ -66,7 +66,7 @@
   "hextech": {
     "key": "hextech",
     "name": "Hextech",
-    "description": "When combat begins, the ally team launches and detonates a pulse bomb, temporarily disabling nearby enemy items for 8 seconds",
+    "description": "When combat begins, the ally team launches and detonates a pulse bomb, temporarily disabling nearby enemy items for 7 seconds",
     "accentChampionImage": null,
     "bonuses": [
       {
@@ -98,7 +98,7 @@
   "noble": {
     "key": "noble",
     "name": "Noble",
-    "description": "Nobles grant +60 Armor and Magic Resist and heal for 35 on hit",
+    "description": "Nobles grant +50 Armor and Magic Resist and heal for 25 on hit",
     "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Garen_Splash_Centered_0.jpg",
     "bonuses": [
       {
@@ -119,11 +119,11 @@
     "bonuses": [
       {
         "needed": 1,
-        "effect": "1 Ninja only: Ninja gains +40% Attack Damage & Ability Power"
+        "effect": "1 Ninja only: Ninja gains +50 Attack Damage & Ability Power"
       },
       {
         "needed": 4,
-        "effect": "4 Ninjas: All Ninjas gain +60% Attack Damage & Ability Power"
+        "effect": "4 Ninjas: All Ninjas gain +70 Attack Damage & Ability Power"
       }
     ]
   },
@@ -135,7 +135,7 @@
     "bonuses": [
       {
         "needed": 3,
-        "effect": "Earn up to 4 additional gold after combat against another player (avg 1.6g per chest)."
+        "effect": "Earn up to 4 additional gold after combat against another player."
       }
     ]
   },
@@ -178,7 +178,7 @@
   "wild": {
     "key": "wild",
     "name": "Wild",
-    "description": "Attacks generate stacks of Fury (up to 5). Each stack of Fury grants 10% Attack Speed.",
+    "description": "Attacks generate stacks of Fury (up to 5). Each stack of Fury grants 12% Attack Speed.",
     "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Rengar_Splash_Centered_0.jpg",
     "bonuses": [
       {
@@ -199,11 +199,11 @@
     "bonuses": [
       {
         "needed": 3,
-        "effect": "30% chance to miss."
+        "effect": "35% chance to miss"
       },
       {
         "needed": 6,
-        "effect": "55% chance to miss."
+        "effect": "60% chance to miss"
       }
     ]
   }

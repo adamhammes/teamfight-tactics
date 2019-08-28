@@ -7,11 +7,11 @@
     "bonuses": [
       {
         "needed": 3,
-        "effect": "+125% critical strike damage."
+        "effect": "+75% Crit Damage & +10% Crit Chance"
       },
       {
         "needed": 6,
-        "effect": "+350% critical strike damage."
+        "effect": "+150% Crit Damage & +25% Crit Chance"
       }
     ]
   },
@@ -23,11 +23,15 @@
     "bonuses": [
       {
         "needed": 3,
-        "effect": "One additional strike"
+        "effect": "1 additional strike"
       },
       {
         "needed": 6,
-        "effect": "Two additional strikes"
+        "effect": "2 additional strikes"
+      },
+      {
+        "needed": 9,
+        "effect": "4 additional strikes"
       }
     ]
   },
@@ -39,11 +43,15 @@
     "bonuses": [
       {
         "needed": 2,
-        "effect": "+300 Bonus health."
+        "effect": "+250 Bonus health"
       },
       {
         "needed": 4,
-        "effect": "+700 Bonus health."
+        "effect": "+500 Bonus health"
+      },
+      {
+        "needed": 6,
+        "effect": "+900 Bonus health"
       }
     ]
   },
@@ -79,11 +87,15 @@
     "bonuses": [
       {
         "needed": 2,
-        "effect": "Attack another random enemy."
+        "effect": "Attack 1 additional random enemy."
       },
       {
         "needed": 4,
         "effect": "Attack 2 additional random enemies in range."
+      },
+      {
+        "needed": 6,
+        "effect": "Attack 3 additional random enemies in range."
       }
     ]
   },
@@ -95,15 +107,15 @@
     "bonuses": [
       {
         "needed": 2,
-        "effect": "15 damage."
+        "effect": "15 damage"
       },
       {
         "needed": 4,
-        "effect": "30 damage."
+        "effect": "30 damage"
       },
       {
         "needed": 6,
-        "effect": "55 damage."
+        "effect": "55 damage"
       }
     ]
   },
@@ -115,11 +127,11 @@
     "bonuses": [
       {
         "needed": 2,
-        "effect": "25% chance."
+        "effect": "30% chance"
       },
       {
         "needed": 4,
-        "effect": "65% chance."
+        "effect": "70% chance"
       }
     ]
   },
@@ -132,6 +144,10 @@
       {
         "needed": 3,
         "effect": "+60% bonus max health"
+      },
+      {
+        "needed": 6,
+        "effect": "+120% bonus max health"
       }
     ]
   },
@@ -143,7 +159,7 @@
     "bonuses": [
       {
         "needed": 3,
-        "effect": "+45% Spell Damage"
+        "effect": "+40% Spell Damage"
       },
       {
         "needed": 6,

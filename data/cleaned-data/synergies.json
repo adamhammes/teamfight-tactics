@@ -2,22 +2,22 @@
     {
         "key": "demon",
         "name": "Demon",
-        "description": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage.",
+        "description": "Demons basic attacks have a 40% chance to burn 20 mana from their target and return mana to the attacker.",
         "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Aatrox_Splash_Centered_0.jpg",
         "bonuses": [
             {
                 "needed": 2,
-                "effect": "20% chance on hit to Mana Burn",
+                "effect": "Return 15 mana back to attacker",
                 "exclusive": false
             },
             {
                 "needed": 4,
-                "effect": "35% chance on hit to Mana Burn",
+                "effect": "Return 30 mana back to attacker",
                 "exclusive": false
             },
             {
                 "needed": 6,
-                "effect": "60% chance on hit to Mana Burn",
+                "effect": "Return 45 mana back to attacker",
                 "exclusive": false
             }
         ],
@@ -78,7 +78,7 @@
     {
         "key": "hextech",
         "name": "Hextech",
-        "description": "When combat begins, the ally team launches and detonates a pulse bomb, temporarily disabling nearby enemy items for 8 seconds",
+        "description": "When combat begins, the ally team launches and detonates a pulse bomb, temporarily disabling nearby enemy items for 7 seconds",
         "accentChampionImage": null,
         "bonuses": [
             {
@@ -116,7 +116,7 @@
     {
         "key": "noble",
         "name": "Noble",
-        "description": "Nobles grant +60 Armor and Magic Resist and heal for 35 on hit",
+        "description": "Nobles grant +50 Armor and Magic Resist and heal for 25 on hit",
         "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Garen_Splash_Centered_0.jpg",
         "bonuses": [
             {
@@ -140,12 +140,12 @@
         "bonuses": [
             {
                 "needed": 1,
-                "effect": "1 Ninja only: Ninja gains +40% Attack Damage & Ability Power",
+                "effect": "1 Ninja only: Ninja gains +50 Attack Damage & Ability Power",
                 "exclusive": true
             },
             {
                 "needed": 4,
-                "effect": "4 Ninjas: All Ninjas gain +60% Attack Damage & Ability Power",
+                "effect": "4 Ninjas: All Ninjas gain +70 Attack Damage & Ability Power",
                 "exclusive": false
             }
         ],
@@ -159,7 +159,7 @@
         "bonuses": [
             {
                 "needed": 3,
-                "effect": "Earn up to 4 additional gold after combat against another player (avg 1.6g per chest).",
+                "effect": "Earn up to 4 additional gold after combat against another player.",
                 "exclusive": false
             }
         ],
@@ -210,7 +210,7 @@
     {
         "key": "wild",
         "name": "Wild",
-        "description": "Attacks generate stacks of Fury (up to 5). Each stack of Fury grants 10% Attack Speed.",
+        "description": "Attacks generate stacks of Fury (up to 5). Each stack of Fury grants 12% Attack Speed.",
         "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Rengar_Splash_Centered_0.jpg",
         "bonuses": [
             {
@@ -234,12 +234,12 @@
         "bonuses": [
             {
                 "needed": 3,
-                "effect": "30% chance to miss.",
+                "effect": "35% chance to miss",
                 "exclusive": false
             },
             {
                 "needed": 6,
-                "effect": "55% chance to miss.",
+                "effect": "60% chance to miss",
                 "exclusive": false
             }
         ],
@@ -253,12 +253,12 @@
         "bonuses": [
             {
                 "needed": 3,
-                "effect": "+125% critical strike damage.",
+                "effect": "+75% Crit Damage & +10% Crit Chance",
                 "exclusive": false
             },
             {
                 "needed": 6,
-                "effect": "+350% critical strike damage.",
+                "effect": "+150% Crit Damage & +25% Crit Chance",
                 "exclusive": false
             }
         ],
@@ -272,12 +272,17 @@
         "bonuses": [
             {
                 "needed": 3,
-                "effect": "One additional strike",
+                "effect": "1 additional strike",
                 "exclusive": false
             },
             {
                 "needed": 6,
-                "effect": "Two additional strikes",
+                "effect": "2 additional strikes",
+                "exclusive": false
+            },
+            {
+                "needed": 9,
+                "effect": "4 additional strikes",
                 "exclusive": false
             }
         ],
@@ -291,12 +296,17 @@
         "bonuses": [
             {
                 "needed": 2,
-                "effect": "+300 Bonus health.",
+                "effect": "+250 Bonus health",
                 "exclusive": false
             },
             {
                 "needed": 4,
-                "effect": "+700 Bonus health.",
+                "effect": "+500 Bonus health",
+                "exclusive": false
+            },
+            {
+                "needed": 6,
+                "effect": "+900 Bonus health",
                 "exclusive": false
             }
         ],
@@ -338,12 +348,17 @@
         "bonuses": [
             {
                 "needed": 2,
-                "effect": "Attack another random enemy.",
+                "effect": "Attack 1 additional random enemy.",
                 "exclusive": false
             },
             {
                 "needed": 4,
                 "effect": "Attack 2 additional random enemies in range.",
+                "exclusive": false
+            },
+            {
+                "needed": 6,
+                "effect": "Attack 3 additional random enemies in range.",
                 "exclusive": false
             }
         ],
@@ -357,17 +372,17 @@
         "bonuses": [
             {
                 "needed": 2,
-                "effect": "15 damage.",
+                "effect": "15 damage",
                 "exclusive": false
             },
             {
                 "needed": 4,
-                "effect": "30 damage.",
+                "effect": "30 damage",
                 "exclusive": false
             },
             {
                 "needed": 6,
-                "effect": "55 damage.",
+                "effect": "55 damage",
                 "exclusive": false
             }
         ],
@@ -381,12 +396,12 @@
         "bonuses": [
             {
                 "needed": 2,
-                "effect": "25% chance.",
+                "effect": "30% chance",
                 "exclusive": false
             },
             {
                 "needed": 4,
-                "effect": "65% chance.",
+                "effect": "70% chance",
                 "exclusive": false
             }
         ],
@@ -402,6 +417,11 @@
                 "needed": 3,
                 "effect": "+60% bonus max health",
                 "exclusive": false
+            },
+            {
+                "needed": 6,
+                "effect": "+120% bonus max health",
+                "exclusive": false
             }
         ],
         "type": "class"
@@ -414,7 +434,7 @@
         "bonuses": [
             {
                 "needed": 3,
-                "effect": "+45% Spell Damage",
+                "effect": "+40% Spell Damage",
                 "exclusive": false
             },
             {
